@@ -1,0 +1,429 @@
+
+<!DOCTYPE html>
+<html class="no-js" lang="en-us">
+<head>
+    <!-- Basic Page Needs -->
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+    <meta name="generator" content="Hugo 0.52" />
+    
+    <!-- Mobile Specific Metas -->
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Model Physics</title>
+    <link rel="icon" href="https://olaflow.github.io/images/favicon.ico">
+
+    <!-- Twitter Bootstrs CSS -->
+    <link rel="stylesheet" href="https://olaflow.github.io/plugins/bootstrap/bootstrap.min.css">
+    <!-- Ionicons Fonts Css -->
+    <link rel="stylesheet" href="https://olaflow.github.io/plugins/ionicons/ionicons.min.css">
+    <!-- animate css -->
+    <link rel="stylesheet" href="https://olaflow.github.io/plugins/animate-css/animate.css">
+    <!-- Hero area slider css-->
+    <link rel="stylesheet" href="https://olaflow.github.io/plugins/slider/slider.css">
+    <!-- slick slider -->
+    <link rel="stylesheet" href="https://olaflow.github.io/plugins/slick/slick.css">
+    <!-- Fancybox -->
+    <link rel="stylesheet" href="https://olaflow.github.io/plugins/facncybox/jquery.fancybox.css">
+    <!-- hover -->
+    <link rel="stylesheet" href="https://olaflow.github.io/plugins/hover/hover-min.css">
+    <!-- template main css file -->
+    <link rel="stylesheet" href="https://olaflow.github.io/css/style.css">
+</head>
+
+<body>
+
+<section class="top-bar animated-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <a class="navbar-brand" href="https://olaflow.github.io/">
+                        <img src="https://olaflow.github.io/images/logo_Htr.png" alt="logo" height="40">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://olaflow.github.io/">Home</a>
+                            </li>
+                            
+                            <li class="nav-item">
+                                <a class="nav-link" href="/blog">Blog</a>
+                            </li>
+                            
+                            <li class="nav-item">
+                                <a class="nav-link" href="/numerical-model">Numerical model</a>
+                            </li>
+                            
+                            <li class="nav-item">
+                                <a class="nav-link" href="/source-code">Source code</a>
+                            </li>
+                            
+                            <li class="nav-item">
+                                <a class="nav-link" href="/consultancy">Consultancy</a>
+                            </li>
+                            
+                            <li class="nav-item">
+                                <a class="nav-link" href="/development-team">Development Team</a>
+                            </li>
+                            
+                            <li class="nav-item">
+                                <a class="nav-link" href="/contact">Contact</a>
+                            </li>
+                            
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    displayMath: [['$$','$$']],
+    processEscapes: true,
+    processEnvironments: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+    TeX: { equationNumbers: { autoNumber: "AMS" },
+         extensions: ["AMSmath.js", "AMSsymbols.js"] }
+  }
+  });
+  MathJax.Hub.Queue(function() {
+    
+    
+    
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i = 0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+  });
+
+  MathJax.Hub.Config({
+  
+  TeX: { equationNumbers: { autoNumber: "AMS" } }
+  });
+</script>
+
+<!-- Global Page Section Start -->
+
+
+
+<section class="global-page-header" style='background-image: url("https://olaflow.github.io/images/backgrounds/physics.jpg"); background-repeat: no-repeat; background-size: cover; background-position: center;'>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="block">
+                    <h2>Model Physics</h2>
+                    <ol class="breadcrumb list-inline text-center">
+                        <li class="list-inline-item">
+                            <a href="/">
+                                <i class="ion-ios-home"></i>
+                                Home
+                            </a>
+                        </li>
+                        <li class="active list-inline-item">
+                            
+                            
+                            
+                            
+                            
+                                  
+                                <a href="/numerical-model">
+                                        &nbsp; &nbsp; / &nbsp; &nbsp; numerical-model
+                                </a>
+                            
+                            
+                            
+                            
+                            
+                                  
+                                <a href="/numerical-model/model-physics">
+                                        &nbsp; &nbsp; / &nbsp; &nbsp; model-physics
+                                </a>
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Global Page Section End -->
+
+<!-- Markdown Section Start -->
+
+
+
+
+<section id="aboutMdSection" style="background: #ececec; padding: 20px 0;">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="textblock">
+                    <h2>Overview</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="aboutMdSection">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="textblock">
+                    <p><p>OlaFlow is an open source project conceived as a continuation of the work in <a href="/development-team">Pablo Higuera&rsquo;s</a> thesis. The development has been continuous from <a href="https://github.com/phicau/IHFOAM">ihFoam</a> (Jul 8, 2014 - Feb 11, 2016) and olaFoam (Mar 2, 2016 - Nov 25, 2017).</p>
+
+<p>This free and open source project is committed to bringing the latest advances in the simulation of wave dynamics to the OpenFOAM® and FOAM-extend communities.</p>
+
+<p>The program solves the three-dimensional Volume Averaged Reynolds Averaged Navier Stokes equations (VARANS) using the finite volume discretization. The two incompressible phases (water and air) are tracked using the Volume of Fluid (VOF) technique to represent complex free surface configurations. Turbulence modelling can be included by means of different approaches (RANS, LES, DNS) and a number of models available.</p>
+
+<p>The most remarkable features that olaFoam offers are physically correct two-phase flow through porous media, wave generation and active wave absorption handled at the boundaries of the domain (no increase in computational cost) and moving-boundary wave generation and absorption to mimic laboratory wavemakers of all kinds. Also, the program features other OpenFOAM advanced capabilities, as dynamic mesh refinement and mesh motion (6 DOF) for floating body simulation.</p>
+</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Markdown Section End -->
+
+<!-- Markdown Section Start -->
+
+
+
+
+<section id="aboutMdSection" style="background: #6ec8ff; padding: 20px 0;">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="textblock">
+                    <h2>Equations</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="aboutMdSection">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="textblock">
+                    <p><p>The VARANS equations represent physically the flow inside porous media. In order to define the mean (volume-averaged) inside the porous materials, some physical parameters are needed, namely the porosity (phi) and mean nominal diameter (D50).</p>
+
+<p>The closure terms in the Navier-Stokes equations are formulated in terms of linear, nonlinear and transient components. Each of these depend on a tuning factor (alpha, beta, C), that needs to be established in a case by case basis. Generally, the user needs to select the best-fit values according to their experimental or theoretical data.</p>
+
+<p>The continuity and momentum conservation equations are as follows:</p>
+
+<p>$$\frac{\partial \langle u_i \rangle}{\partial x_i} = 0$$</p>
+
+<p><br></p>
+
+<p>$$\frac{1 + C}{\phi} \frac{\partial \rho \langle u_i \rangle}{\partial t} +
+\frac{1}{\phi} \frac{\partial}{\partial x_j}
+\left[ \frac{1}{\phi} \rho \langle u_i \rangle \langle u_j \rangle \right] =$$
+$$- \frac{\partial \langle p^* \rangle^f}{\partial x_i} -
+g_j X_j \frac{\partial \rho}{\partial x_i} +
+\frac{1}{\phi} \frac{\partial}{\partial x_j}
+\left[ \mu_e \frac{\partial \langle u_i \rangle}{\partial x_j} \right] +
+F_i^{ST}$$
+$$ - \alpha \frac{(1 - \phi)^3}{\phi_3} \frac{\mu}{D_{50}^2} \langle u_i \rangle -
+\beta \left( 1 + \frac{7.5}{\mbox{KC}} \right) \frac{1 - \phi}{\phi_3}
+\frac{\rho}{D_{50}} \sqrt{\langle u_j \rangle \langle u_j \rangle} \langle u_i \rangle$$</p>
+
+<p>It can be noted that VARANS equations are simultaneously applicable outside porous media, because porosity is equal to 1 in the clear flow region.</p>
+
+<p>For a complete derivation of the equations see Pablo Higuera&rsquo;s thesis in the <a href="/numerical-model/model-references/">references section</a>.</p>
+</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Markdown Section End -->
+
+<!-- Markdown Section Start -->
+
+
+
+
+<section id="aboutMdSection" style="background: #ececec; padding: 20px 0;">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="textblock">
+                    <h2>Solving Procedure</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="aboutMdSection">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="textblock">
+                    <p><p>The pressure-velocity equations are solved by a two step method called PIMPLE, derived from PISO (Pressure Implicit with Splitting of Operators) and SIMPLE (Semi-Implicit Method for Pressure-Linked Equations). PIMPLE main structure is inherited from the original PISO, but it allows equation under-relaxation, as in SIMPLE, to ensure the convergence of all the equations at each time step.</p>
+
+<p>The VOF function advection-diffusion equation is solved with an independent method called MULES (multi-dimensional limiter for explicit solution). From version 2.3.0, this technique includes a new semi-implicit variant, which combines operator splitting with application of the MULES limiter to an explicit correction rather than to the complete flux. In principle this is advantageous, as it will enhance the stability for larger Courant numbers.</p>
+</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Markdown Section End -->
+
+<!-- Markdown Section Start -->
+
+
+
+
+<section id="aboutMdSection" style="background: #6ec8ff; padding: 20px 0;">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="textblock">
+                    <h2>Boundary Conditions</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="aboutMdSection">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="textblock">
+                    <p><p>olaFlow includes a set of boundary conditions to generate and to absorb waves at the boundaries, with the advantage that no buffer or damping zone needs to be included, thus saving significant computational cost and obtaining a faster performance.</p>
+
+<p>The available wave theories cover the full range of relative depths, from linear Stokes I to high order cnoidal. Irregular sea states, including second order generation and directionality, are also accounted for.</p>
+
+<p>Waves can also be generated and absorbed as in physical facilities, by means of piston and flap wavemakers. Mixed-types wavemakers will be developed in a near future.</p>
+</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Markdown Section End -->
+
+<!-- Markdown Section Start -->
+
+
+
+
+<section id="aboutMdSection" style="background: #ececec; padding: 20px 0;">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="textblock">
+                    <h2>Validation</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="aboutMdSection">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="textblock">
+                    <p>An extensive range of validation cases have been performed before the release of the code. The most relevant results can be consulted in the <a href="/numerical-model/model-references/">references section</a>.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Markdown Section End -->
+
+
+<!-- Prefooter Section Start -->
+<section id="prefooter">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="block">
+                    <hr>
+                    <p>OPENFOAM® is a registered trade mark of OpenCFD Limited, producer and distributor of the OpenFOAM software via www.openfoam.com.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Prefooter Section End -->
+
+
+<!-- Footer Section Start -->
+<hr>
+<footer id="footer">
+    <div class="container">
+        <div class="row content-justify-between">
+            <div class="col-md-8 col-12 text-center text-lg-left text-md-left">
+                <a class="footer-brand" href="https://olaflow.github.io/">
+                        <img src="https://olaflow.github.io/images/logo_Htr.png" alt="logo" height="40">
+                </a>
+            </div>
+            <div class="col-md-4 col-12">
+                <ul class="social text-center text-md-right text-lg-right">
+                <p class="copyright">Copyright ©: 2017-2019 olaFlow CFD
+                </p>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</footer>
+<!-- footer section end -->
+
+<!-- jquery -->
+<script src="https://olaflow.github.io/plugins/jQurey/jquery.min.js"></script>
+<!-- Form Validation -->
+<script src="https://olaflow.github.io/plugins/form-validation/jquery.form.js"></script>
+<script src="https://olaflow.github.io/plugins/form-validation/jquery.validate.min.js"></script>
+<!-- slick slider -->
+<script src="https://olaflow.github.io/plugins/slick/slick.min.js"></script>
+<!-- bootstrap js -->
+<script src="https://olaflow.github.io/plugins/bootstrap/bootstrap.min.js"></script>
+<!-- wow js -->
+<script src="https://olaflow.github.io/plugins/wow-js/wow.min.js"></script>
+<!-- slider js -->
+<script src="https://olaflow.github.io/plugins/slider/slider.js"></script>
+<!-- Fancybox -->
+<script src="https://olaflow.github.io/plugins/facncybox/jquery.fancybox.js"></script>
+<!-- template main js -->
+<script src="https://olaflow.github.io/js/main.js"></script>
+</body>
+
+</html>

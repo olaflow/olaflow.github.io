@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Awa on olaFlow | CFD for waves</title>
+    <link>https://olaflow.github.io/tags/awa/</link>
+    <description>Recent content in Awa on olaFlow | CFD for waves</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 22 Oct 2018 12:20:40 +0600</lastBuildDate>
+    
+	<atom:link href="https://olaflow.github.io/tags/awa/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Active wave absorption enhancements in olaFlow</title>
+      <link>https://olaflow.github.io/blog/active-wave-absorption-enhancements-in-olaflow/</link>
+      <pubDate>Mon, 22 Oct 2018 12:20:40 +0600</pubDate>
+      
+      <guid>https://olaflow.github.io/blog/active-wave-absorption-enhancements-in-olaflow/</guid>
+      <description>Today we are glad to present you Enhancing active wave absorption in RANS models, our new preprint, soon to be published:
+Enhancing active wave absorption in RANS models In this work we review the most common methods for absorbing waves in Reynolds-Averaged Navier-Stokes (RANS) models. The limitations of active wave absorption, originating from its initial assumption of linear wave theory in shallow waters are overcome and the range of applicability is extended to any relative water depth conditions by re-deriving the formulation.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>olaFlow | CFD for waves</title>
+    <link>https://olaflow.github.io/</link>
+    <description>Recent content on olaFlow | CFD for waves</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 22 Oct 2018 12:20:40 +0600</lastBuildDate>
+    
+	<atom:link href="https://olaflow.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Active wave absorption enhancements in olaFlow</title>
+      <link>https://olaflow.github.io/blog/active-wave-absorption-enhancements-in-olaflow/</link>
+      <pubDate>Mon, 22 Oct 2018 12:20:40 +0600</pubDate>
+      
+      <guid>https://olaflow.github.io/blog/active-wave-absorption-enhancements-in-olaflow/</guid>
+      <description>Today we are glad to present you Enhancing active wave absorption in RANS models, our new preprint, soon to be published:
+Enhancing active wave absorption in RANS models In this work we review the most common methods for absorbing waves in Reynolds-Averaged Navier-Stokes (RANS) models. The limitations of active wave absorption, originating from its initial assumption of linear wave theory in shallow waters are overcome and the range of applicability is extended to any relative water depth conditions by re-deriving the formulation.</description>
+    </item>
+    
+    <item>
+      <title>Turbulence models for wave simulations [Revisited]</title>
+      <link>https://olaflow.github.io/blog/turbulence-models-for-wave-simulations-revisited/</link>
+      <pubDate>Thu, 30 Aug 2018 12:20:40 +0600</pubDate>
+      
+      <guid>https://olaflow.github.io/blog/turbulence-models-for-wave-simulations-revisited/</guid>
+      <description>This is a followup post of: Turbulence models for wave simulations
+Since turbulence is an extremely important physical process, especially when studying wave breaking or wave impacts on a structure, every attempt to enhance two equation models, the most widely used today, takes CFD one step further.
+Today olaFlow CFD is updating its turbulence modelling library to include the most recent advances.
+This library is part of the olaFlow supplementary materials repository:</description>
+    </item>
+    
+    <item>
+      <title>Caramel Bottle</title>
+      <link>https://olaflow.github.io/portfolio/caramel-bottle/</link>
+      <pubDate>Thu, 12 Jul 2018 16:59:54 +0600</pubDate>
+      
+      <guid>https://olaflow.github.io/portfolio/caramel-bottle/</guid>
+      <description>Consectur in Bibendum Totam rem aperiam eaque ipsa quae illo inventore veritatis et quasi architebetea.vitae dicta sunt explicabo. nemo enim ipsam volup as tatem quia voluptassit aspernatur.aut odit aut fugit sed quia consequuntur magni dolores eo ratione voluptatem.sequi nesciunt neque porro quisquam est dolorem ipsum quia dolor amet consectetur adipisci velit. lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</description>
+    </item>
+    
+    <item>
+      <title>Shopping Bag Concept</title>
+      <link>https://olaflow.github.io/portfolio/shopping-bag-concept/</link>
+      <pubDate>Thu, 12 Jul 2018 16:58:55 +0600</pubDate>
+      
+      <guid>https://olaflow.github.io/portfolio/shopping-bag-concept/</guid>
+      <description>Consectur in Bibendum Totam rem aperiam eaque ipsa quae illo inventore veritatis et quasi architebetea.vitae dicta sunt explicabo. nemo enim ipsam volup as tatem quia voluptassit aspernatur.aut odit aut fugit sed quia consequuntur magni dolores eo ratione voluptatem.sequi nesciunt neque porro quisquam est dolorem ipsum quia dolor amet consectetur adipisci velit. lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</description>
+    </item>
+    
+    <item>
+      <title>Makeup Element</title>
+      <link>https://olaflow.github.io/portfolio/makeup-element/</link>
+      <pubDate>Thu, 12 Jul 2018 16:57:54 +0600</pubDate>
+      
+      <guid>https://olaflow.github.io/portfolio/makeup-element/</guid>
+      <description>Consectur in Bibendum Totam rem aperiam eaque ipsa quae illo inventore veritatis et quasi architebetea.vitae dicta sunt explicabo. nemo enim ipsam volup as tatem quia voluptassit aspernatur.aut odit aut fugit sed quia consequuntur magni dolores eo ratione voluptatem.sequi nesciunt neque porro quisquam est dolorem ipsum quia dolor amet consectetur adipisci velit. lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</description>
+    </item>
+    
+    <item>
+      <title>Table Design</title>
+      <link>https://olaflow.github.io/portfolio/table-design/</link>
+      <pubDate>Thu, 12 Jul 2018 16:56:54 +0600</pubDate>
+      
+      <guid>https://olaflow.github.io/portfolio/table-design/</guid>
+      <description>Consectur in Bibendum Totam rem aperiam eaque ipsa quae illo inventore veritatis et quasi architebetea.vitae dicta sunt explicabo. nemo enim ipsam volup as tatem quia voluptassit aspernatur.aut odit aut fugit sed quia consequuntur magni dolores eo ratione voluptatem.sequi nesciunt neque porro quisquam est dolorem ipsum quia dolor amet consectetur adipisci velit. lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</description>
+    </item>
+    
+    <item>
+      <title>Bottle Mockup</title>
+      <link>https://olaflow.github.io/portfolio/bottle-mockup/</link>
+      <pubDate>Thu, 12 Jul 2018 16:54:54 +0600</pubDate>
+      
+      <guid>https://olaflow.github.io/portfolio/bottle-mockup/</guid>
+      <description>Consectur in Bibendum Totam rem aperiam eaque ipsa quae illo inventore veritatis et quasi architebetea.vitae dicta sunt explicabo. nemo enim ipsam volup as tatem quia voluptassit aspernatur.aut odit aut fugit sed quia consequuntur magni dolores eo ratione voluptatem.sequi nesciunt neque porro quisquam est dolorem ipsum quia dolor amet consectetur adipisci velit. lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</description>
+    </item>
+    
+    <item>
+      <title>Dew Drop</title>
+      <link>https://olaflow.github.io/portfolio/dew-drop/</link>
+      <pubDate>Thu, 12 Jul 2018 16:53:54 +0600</pubDate>
+      
+      <guid>https://olaflow.github.io/portfolio/dew-drop/</guid>
+      <description>Consectur in Bibendum Totam rem aperiam eaque ipsa quae illo inventore veritatis et quasi architebetea.vitae dicta sunt explicabo. nemo enim ipsam volup as tatem quia voluptassit aspernatur.aut odit aut fugit sed quia consequuntur magni dolores eo ratione voluptatem.sequi nesciunt neque porro quisquam est dolorem ipsum quia dolor amet consectetur adipisci velit. lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</description>
+    </item>
+    
+    <item>
+      <title>olaFlow DOI</title>
+      <link>https://olaflow.github.io/blog/olaflow-doi/</link>
+      <pubDate>Sun, 24 Jun 2018 12:20:40 +0600</pubDate>
+      
+      <guid>https://olaflow.github.io/blog/olaflow-doi/</guid>
+      <description>We have just included olaFlow in the Zenodo database, after preparing the code for minting a DOI. This allows users to have a perpetual reference for citing the software, which works in the same way as the DOI for papers.
+The DOI identifier for olaFlow is: https://doi.org/10.5281/zenodo.1297012
+Also, the References section of this web site has been updated to reflect the new changes, making it easier for the users to decide the best way to cite olaFlow.</description>
+    </item>
+    
+    <item>
+      <title>New paper on swash flows with olaFlow</title>
+      <link>https://olaflow.github.io/blog/new-paper-on-swash-flows-with-olaflow/</link>
+      <pubDate>Wed, 30 May 2018 12:20:40 +0600</pubDate>
+      
+      <guid>https://olaflow.github.io/blog/new-paper-on-swash-flows-with-olaflow/</guid>
+      <description>Today we are glad to present you Laboratory-scale swash flows generated by a non-breaking solitary wave on a steep slope, our new paper published in the prestigious Journal of Fluid Mechanics.
+
+Laboratory-scale swash flows generated by a non-breaking solitary wave on a steep slope The main goal of this paper is to provide insights into swash flow dynamics, generated by a non-breaking solitary wave on a steep slope. Both laboratory experiments and numerical simulations are conducted to investigate the details of runup and rundown processes.</description>
+    </item>
+    
+    <item>
+      <title>Turbulence models for wave simulations</title>
+      <link>https://olaflow.github.io/blog/turbulence-models-for-wave-simulations/</link>
+      <pubDate>Mon, 16 Apr 2018 12:20:40 +0600</pubDate>
+      
+      <guid>https://olaflow.github.io/blog/turbulence-models-for-wave-simulations/</guid>
+      <description>Turbulence is an extremely important physical process, especially when studying wave breaking or wave impacts on a structure. However, OpenFOAM® does not provide by default incompressible turbulence models for multiphase systems (i.e. models that take into account the density variation between the air and water phases). This often results in a well-known excessive wave height damping (due to the increasing nut) as the simulation progresses, due to turbulence build-up.</description>
+    </item>
+    
+    <item>
+      <title>olaFlow coupling with isoAdvector</title>
+      <link>https://olaflow.github.io/blog/olaflow-coupling-with-isoadvector/</link>
+      <pubDate>Mon, 19 Mar 2018 12:20:40 +0600</pubDate>
+      
+      <guid>https://olaflow.github.io/blog/olaflow-coupling-with-isoadvector/</guid>
+      <description>IsoAdvector is a new method for two-phase flow advection developed by Johan Roenby.
+Leaving major technical details out (you can find all the details in A computational method for sharp interface advection), isoAdvector produces an extremely sharp interface at a fraction of the computational cost of previous surface tracking methods, because it reduces the number of geometric operations needed for free surface advection.
+The sharpness of the interface is clear when comparing the results of a dam break test case against the solution obtained with OpenFOAM®&amp;rsquo;s MULES solver.</description>
+    </item>
+    
+    <item>
+      <title>First olaFlow publication</title>
+      <link>https://olaflow.github.io/blog/-first-olaflow-publication/</link>
+      <pubDate>Wed, 10 Jan 2018 12:20:40 +0600</pubDate>
+      
+      <guid>https://olaflow.github.io/blog/-first-olaflow-publication/</guid>
+      <description>It is great to start 2018 having a paper published, the first with olaFlow. In Simulating Breaking Focused Waves in CFD: Methodology for Controlled Generation of First and Second Order we apply a methodology to accurately generate wave breaking with focussing waves, both for laboratory experiments and numerical simulations with olaFlow CFD Suite.
+Simulating Breaking Focused Waves in CFD: Methodology for Controlled Generation of First and Second Order A new methodology is proposed for the generation of breaking focused waves in computational fluid dynamics (CFD) simulations.</description>
+    </item>
+    
+    <item>
+      <title>Releasing olaFlow</title>
+      <link>https://olaflow.github.io/blog/releasing-olaflow/</link>
+      <pubDate>Tue, 19 Dec 2017 12:20:40 +0600</pubDate>
+      
+      <guid>https://olaflow.github.io/blog/releasing-olaflow/</guid>
+      <description>It has been almost two years since I released olaFoam, after finishing my PhD and starting a new postdoc at the National University of Singapore. In this time I have added functionalities (piston and flap wavemakers, simultaneous wave and current generation, additional wave theories&amp;hellip;), increased performance and compatibility, and fixed bugs. Today I continue walking ahead towards a bigger project.
+
+It is my pleasure to introduce olaFlow CFD suite, the new evolution in active wave generation and absorption frameworks in OpenFOAM®.</description>
+    </item>
+    
+  </channel>
+</rss>
