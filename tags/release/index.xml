@@ -22,5 +22,16 @@
 It is my pleasure to introduce olaFlow CFD suite, the new evolution in active wave generation and absorption frameworks in OpenFOAM®.</description>
     </item>
     
+    <item>
+      <title>OLAFOAM release, the evolution of IHFOAM</title>
+      <link>https://olaflow.github.io/blog/olafoam-release-the-evolution-of-ihfoam/</link>
+      <pubDate>Mon, 07 Mar 2016 12:20:40 +0600</pubDate>
+      
+      <guid>https://olaflow.github.io/blog/olafoam-release-the-evolution-of-ihfoam/</guid>
+      <description>This is an old post saved for archival purposes only. The olaFoam project is now the olaFlow project 
+It is my pleasure to present a new numerical model based on the popular and widely used OpenFOAM: OLAFOAM.
+OLAFOAM is the evolution of IHFOAM, a well-known three-dimensional Navier-Stokes solver for free surface flows, and is born with the spirit of providing the latest advances for the simulation of wave dynamics to the OpenFOAM and FOAM-extend communities.</description>
+    </item>
+    
   </channel>
 </rss>

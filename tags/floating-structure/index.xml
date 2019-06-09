@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Floating structure on olaFlow | CFD for waves</title>
+    <link>https://olaflow.github.io/tags/floating-structure/</link>
+    <description>Recent content in Floating structure on olaFlow | CFD for waves</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 16 Aug 2016 12:20:40 +0600</lastBuildDate>
+    
+	<atom:link href="https://olaflow.github.io/tags/floating-structure/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>CFD requiem for Wavestar</title>
+      <link>https://olaflow.github.io/blog/cfd-requiem-for-wavestar/</link>
+      <pubDate>Tue, 16 Aug 2016 12:20:40 +0600</pubDate>
+      
+      <guid>https://olaflow.github.io/blog/cfd-requiem-for-wavestar/</guid>
+      <description>This is an old post saved for archival purposes only. The olaFoam project is now the olaFlow project 
+Wavestar is a Danish company that developed a new concept for a wave energy converter (WEC) device. The machine is a platform in which several floaters are attached to a hydraulic system that generates energy as they oscillate up and down with the waves.
+The strongest point of this technology is that it can be built side by side with wind turbines in intermediate water depths, and that the energy production can be better anticipated, as wave forecasts are more reliable than wind forecasts.</description>
+    </item>
+    
+  </channel>
+</rss>

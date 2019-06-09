@@ -150,5 +150,83 @@ Simulating Breaking Focused Waves in CFD: Methodology for Controlled Generation 
 It is my pleasure to introduce olaFlow CFD suite, the new evolution in active wave generation and absorption frameworks in OpenFOAM®.</description>
     </item>
     
+    <item>
+      <title>OLAFOAM generation capabilities grow with the flap wavemaker</title>
+      <link>https://olaflow.github.io/blog/olafoam-generation-capabilities-grow-with-the-flap-wavemaker/</link>
+      <pubDate>Tue, 29 Nov 2016 12:20:40 +0600</pubDate>
+      
+      <guid>https://olaflow.github.io/blog/olafoam-generation-capabilities-grow-with-the-flap-wavemaker/</guid>
+      <description>This is an old post saved for archival purposes only. The olaFoam project is now the olaFlow project 
+Today the OLAFOAM project advances a step further in the simulation of laboratory facilities wave-making technologies. With the extension of the moving-boundary module to include flap wavemakers, OLAFOAM is now capable of reproducing the most widely-spread wave generation systems (piston and flap). Furthermore, the piston type includes an active wave absorption system to generate the selected waves while self-adjusting to absorb any incident wave to the boundary.</description>
+    </item>
+    
+    <item>
+      <title>CFD requiem for Wavestar</title>
+      <link>https://olaflow.github.io/blog/cfd-requiem-for-wavestar/</link>
+      <pubDate>Tue, 16 Aug 2016 12:20:40 +0600</pubDate>
+      
+      <guid>https://olaflow.github.io/blog/cfd-requiem-for-wavestar/</guid>
+      <description>This is an old post saved for archival purposes only. The olaFoam project is now the olaFlow project 
+Wavestar is a Danish company that developed a new concept for a wave energy converter (WEC) device. The machine is a platform in which several floaters are attached to a hydraulic system that generates energy as they oscillate up and down with the waves.
+The strongest point of this technology is that it can be built side by side with wind turbines in intermediate water depths, and that the energy production can be better anticipated, as wave forecasts are more reliable than wind forecasts.</description>
+    </item>
+    
+    <item>
+      <title>What is what and who is who in the OpenFOAM environment?</title>
+      <link>https://olaflow.github.io/blog/what-is-what-and-who-is-who-in-the-openfoam-environment/</link>
+      <pubDate>Mon, 04 Jul 2016 12:20:40 +0600</pubDate>
+      
+      <guid>https://olaflow.github.io/blog/what-is-what-and-who-is-who-in-the-openfoam-environment/</guid>
+      <description>This is an old post saved for archival purposes only. The olaFoam project is now the olaFlow project 
+The latest releases that have widened the spectrum of the OpenFOAM environment may confuse some of the new and not so new users. I myself did not know about certain of the new tastes that OpenFOAM has until very recently. This is why I decided to create this post, to sketch what is what and who is who in the OpenFOAM environment.</description>
+    </item>
+    
+    <item>
+      <title>olaFoam updated to OpenFOAM 4.0</title>
+      <link>https://olaflow.github.io/blog/olafoam-updated-to-openfoam-4.0/</link>
+      <pubDate>Wed, 29 Jun 2016 12:20:40 +0600</pubDate>
+      
+      <guid>https://olaflow.github.io/blog/olafoam-updated-to-openfoam-4.0/</guid>
+      <description>This is an old post saved for archival purposes only. The olaFoam project is now the olaFlow project 
+OpenFOAM 4.0 was released yesterday with the latest updates and bug fixes. Claiming to introduce &amp;ldquo;significant improvements and changes to general usability, post-processing, case management and software management&amp;rdquo;, and having a very similar code structure and usage with respect to previous version, it makes sense to do the change.
+Therefore, olaFoam has already been adapted to be compiled and work under OpenFOAM 4.</description>
+    </item>
+    
+    <item>
+      <title>Tsunami generator and updates soon</title>
+      <link>https://olaflow.github.io/blog/tsunami-generator-and-updates-soon/</link>
+      <pubDate>Wed, 22 Jun 2016 12:20:40 +0600</pubDate>
+      
+      <guid>https://olaflow.github.io/blog/tsunami-generator-and-updates-soon/</guid>
+      <description>This is an old post saved for archival purposes only. The olaFoam project is now the olaFlow project 
+The development of olaFoam is ongoing. Day by day we are testing new features and generating challenging simulations that push OpenFOAM simulations one step further.
+Today I would like to present an implementation of the pneumatic tsunami wave generator, a pressure-driven device that can generate very long waves and is especially good at simulating the initial phase that precedes a tsunami, in which water retreats from the shore.</description>
+    </item>
+    
+    <item>
+      <title>Waves and currents are here</title>
+      <link>https://olaflow.github.io/blog/waves-and-currents-are-here/</link>
+      <pubDate>Fri, 29 Apr 2016 12:20:40 +0600</pubDate>
+      
+      <guid>https://olaflow.github.io/blog/waves-and-currents-are-here/</guid>
+      <description>This is an old post saved for archival purposes only. The olaFoam project is now the olaFlow project 
+It is my pleasure to announce the release of one of the long-awaited features in olaFoam: simultaneous generation and absorption of waves and currents.
+Check this video out (best in 1080p):
+
+ 
+A 2D wave flume is set up with different wave conditions. From top to bottom you can see: waves only, current only, and simultaneous waves and current traveling in the same and in opposite directions.</description>
+    </item>
+    
+    <item>
+      <title>OLAFOAM release, the evolution of IHFOAM</title>
+      <link>https://olaflow.github.io/blog/olafoam-release-the-evolution-of-ihfoam/</link>
+      <pubDate>Mon, 07 Mar 2016 12:20:40 +0600</pubDate>
+      
+      <guid>https://olaflow.github.io/blog/olafoam-release-the-evolution-of-ihfoam/</guid>
+      <description>This is an old post saved for archival purposes only. The olaFoam project is now the olaFlow project 
+It is my pleasure to present a new numerical model based on the popular and widely used OpenFOAM: OLAFOAM.
+OLAFOAM is the evolution of IHFOAM, a well-known three-dimensional Navier-Stokes solver for free surface flows, and is born with the spirit of providing the latest advances for the simulation of wave dynamics to the OpenFOAM and FOAM-extend communities.</description>
+    </item>
+    
   </channel>
 </rss>

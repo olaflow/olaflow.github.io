@@ -111,11 +111,11 @@
     </item>
     
     <item>
-      <title>isoAdvecto</title>
-      <link>https://olaflow.github.io/tags/isoadvecto/</link>
+      <title>isoAdvector</title>
+      <link>https://olaflow.github.io/tags/isoadvector/</link>
       <pubDate>Mon, 19 Mar 2018 12:20:40 +0600</pubDate>
       
-      <guid>https://olaflow.github.io/tags/isoadvecto/</guid>
+      <guid>https://olaflow.github.io/tags/isoadvector/</guid>
       <description></description>
     </item>
     
@@ -143,6 +143,105 @@
       <pubDate>Tue, 19 Dec 2017 12:20:40 +0600</pubDate>
       
       <guid>https://olaflow.github.io/tags/release/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Features</title>
+      <link>https://olaflow.github.io/tags/features/</link>
+      <pubDate>Tue, 29 Nov 2016 12:20:40 +0600</pubDate>
+      
+      <guid>https://olaflow.github.io/tags/features/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Flap wavemaker</title>
+      <link>https://olaflow.github.io/tags/flap-wavemaker/</link>
+      <pubDate>Tue, 29 Nov 2016 12:20:40 +0600</pubDate>
+      
+      <guid>https://olaflow.github.io/tags/flap-wavemaker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wave generation</title>
+      <link>https://olaflow.github.io/tags/wave-generation/</link>
+      <pubDate>Tue, 29 Nov 2016 12:20:40 +0600</pubDate>
+      
+      <guid>https://olaflow.github.io/tags/wave-generation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dynamic mesh</title>
+      <link>https://olaflow.github.io/tags/dynamic-mesh/</link>
+      <pubDate>Tue, 16 Aug 2016 12:20:40 +0600</pubDate>
+      
+      <guid>https://olaflow.github.io/tags/dynamic-mesh/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Floating structure</title>
+      <link>https://olaflow.github.io/tags/floating-structure/</link>
+      <pubDate>Tue, 16 Aug 2016 12:20:40 +0600</pubDate>
+      
+      <guid>https://olaflow.github.io/tags/floating-structure/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wave Energy Converter</title>
+      <link>https://olaflow.github.io/tags/wave-energy-converter/</link>
+      <pubDate>Tue, 16 Aug 2016 12:20:40 +0600</pubDate>
+      
+      <guid>https://olaflow.github.io/tags/wave-energy-converter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>OpenFOAM information</title>
+      <link>https://olaflow.github.io/tags/openfoam-information/</link>
+      <pubDate>Mon, 04 Jul 2016 12:20:40 +0600</pubDate>
+      
+      <guid>https://olaflow.github.io/tags/openfoam-information/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Source code</title>
+      <link>https://olaflow.github.io/tags/source-code/</link>
+      <pubDate>Wed, 29 Jun 2016 12:20:40 +0600</pubDate>
+      
+      <guid>https://olaflow.github.io/tags/source-code/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Updates</title>
+      <link>https://olaflow.github.io/tags/updates/</link>
+      <pubDate>Wed, 29 Jun 2016 12:20:40 +0600</pubDate>
+      
+      <guid>https://olaflow.github.io/tags/updates/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tsunami</title>
+      <link>https://olaflow.github.io/tags/tsunami/</link>
+      <pubDate>Wed, 22 Jun 2016 12:20:40 +0600</pubDate>
+      
+      <guid>https://olaflow.github.io/tags/tsunami/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wave and current interaction</title>
+      <link>https://olaflow.github.io/tags/wave-and-current-interaction/</link>
+      <pubDate>Fri, 29 Apr 2016 12:20:40 +0600</pubDate>
+      
+      <guid>https://olaflow.github.io/tags/wave-and-current-interaction/</guid>
       <description></description>
     </item>
     

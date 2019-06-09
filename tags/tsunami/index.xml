@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tsunami on olaFlow | CFD for waves</title>
+    <link>https://olaflow.github.io/tags/tsunami/</link>
+    <description>Recent content in Tsunami on olaFlow | CFD for waves</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 22 Jun 2016 12:20:40 +0600</lastBuildDate>
+    
+	<atom:link href="https://olaflow.github.io/tags/tsunami/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Tsunami generator and updates soon</title>
+      <link>https://olaflow.github.io/blog/tsunami-generator-and-updates-soon/</link>
+      <pubDate>Wed, 22 Jun 2016 12:20:40 +0600</pubDate>
+      
+      <guid>https://olaflow.github.io/blog/tsunami-generator-and-updates-soon/</guid>
+      <description>This is an old post saved for archival purposes only. The olaFoam project is now the olaFlow project 
+The development of olaFoam is ongoing. Day by day we are testing new features and generating challenging simulations that push OpenFOAM simulations one step further.
+Today I would like to present an implementation of the pneumatic tsunami wave generator, a pressure-driven device that can generate very long waves and is especially good at simulating the initial phase that precedes a tsunami, in which water retreats from the shore.</description>
+    </item>
+    
+  </channel>
+</rss>

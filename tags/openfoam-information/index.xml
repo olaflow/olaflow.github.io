@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>OpenFOAM information on olaFlow | CFD for waves</title>
+    <link>https://olaflow.github.io/tags/openfoam-information/</link>
+    <description>Recent content in OpenFOAM information on olaFlow | CFD for waves</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 04 Jul 2016 12:20:40 +0600</lastBuildDate>
+    
+	<atom:link href="https://olaflow.github.io/tags/openfoam-information/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>What is what and who is who in the OpenFOAM environment?</title>
+      <link>https://olaflow.github.io/blog/what-is-what-and-who-is-who-in-the-openfoam-environment/</link>
+      <pubDate>Mon, 04 Jul 2016 12:20:40 +0600</pubDate>
+      
+      <guid>https://olaflow.github.io/blog/what-is-what-and-who-is-who-in-the-openfoam-environment/</guid>
+      <description>This is an old post saved for archival purposes only. The olaFoam project is now the olaFlow project 
+The latest releases that have widened the spectrum of the OpenFOAM environment may confuse some of the new and not so new users. I myself did not know about certain of the new tastes that OpenFOAM has until very recently. This is why I decided to create this post, to sketch what is what and who is who in the OpenFOAM environment.</description>
+    </item>
+    
+  </channel>
+</rss>
