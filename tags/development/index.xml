@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Development on olaFlow | CFD for waves</title>
+    <link>https://olaflow.github.io/tags/development/</link>
+    <description>Recent content in Development on olaFlow | CFD for waves</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 13 Jun 2019 12:20:40 +0600</lastBuildDate>
+    
+	<atom:link href="https://olaflow.github.io/tags/development/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>New branch added to olaFlow</title>
+      <link>https://olaflow.github.io/blog/new-branch-added-to-olaflow/</link>
+      <pubDate>Thu, 13 Jun 2019 12:20:40 +0600</pubDate>
+      
+      <guid>https://olaflow.github.io/blog/new-branch-added-to-olaflow/</guid>
+      <description>Today we have an important announcement for the olaFlow community. The long wait to have access to the Extended Range Active Wave Absorption (ER-AWA) introduced in our previous post is over.
+The traditional AWA (SW-AWA) is based on the shallow water approximation for linear wave theory, thus, it does not perform well in intermediate and deep water conditions because it produces reflections above 20%. ER-AWA reduces the number of initial assumptions, since it is based on the general linear wave theory, valid at any water depth.</description>
+    </item>
+    
+  </channel>
+</rss>

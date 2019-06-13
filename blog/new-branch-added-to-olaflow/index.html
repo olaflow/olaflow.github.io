@@ -12,7 +12,7 @@
     <!-- Mobile Specific Metas -->
     <meta name="format-detection" content="telephone=no">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Wave absorption</title>
+    <title>New branch added to olaFlow</title>
     <link rel="icon" href="https://olaflow.github.io/images/favicon.ico">
 
     <!-- Twitter Bootstrs CSS -->
@@ -104,7 +104,14 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="block">
-                    <h2>Wave absorption</h2>
+                    <h2>New branch added to olaFlow</h2>
+                    <div class="portfolio-meta">
+                        <span>Thursday, Jun 13, 2019</span>|
+                        <span> Tags:
+                            Wave absorption, AWA, Development
+                        </span>
+                    </div>
+                    <br>
                     <ol class="breadcrumb list-inline text-center">
                         <li class="list-inline-item">
                             <a href="/">
@@ -119,17 +126,8 @@
                             
                             
                                   
-                                <a href="/tags">
-                                        &nbsp; &nbsp; / &nbsp; &nbsp; Tags
-                                </a>
-                            
-                            
-                            
-                            
-                            
-                                  
-                                <a href="/tags/wave-absorption">
-                                        &nbsp; &nbsp; / &nbsp; &nbsp; Wave absorption
+                                <a href="/blog">
+                                        &nbsp; &nbsp; / &nbsp; &nbsp; Blog
                                 </a>
                             
                             
@@ -138,6 +136,13 @@
                             
                             
                             
+                            
+                            
+                            
+                            
+                            <a href="/blog/new-branch-added-to-olaflow/">
+                                    &nbsp; &nbsp; / &nbsp; &nbsp; Post
+                            </a>
                         </li>
                     </ol>
                 </div>
@@ -147,63 +152,93 @@
 </section>
 <!-- Global Page Section End -->
 
-<section id="blog-full-width">
+<section class="single-post">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                
-                <article class="wow fadeInDown" data-wow-delay=".3s" data-wow-duration="500ms">
+                <div class="post-content">
                     
-                    <div class="blog-content">
-                        <h2 class="blogpost-title">
-                            <a href="https://olaflow.github.io/blog/new-branch-added-to-olaflow/">New branch added to olaFlow</a>
-                        </h2>
-                        <div class="blog-meta">
-                            <span>Thursday, Jun 13, 2019</span>
-                            <span>by
-                                Pablo Higuera
-                            </span>
-                            
-                            
-                            <span>
-                                Wave absorption, AWA, Development
-                            </span>
-                            
-                        </div>
-                        <p>
-                            Today we have an important announcement for the olaFlow community. The long wait to have access to the Extended Range Active Wave Absorption (ER-AWA) introduced in our previous post is over.
-The traditional AWA (SW-AWA) is based on the shallow water approximation for linear wave theory, thus, it does not perform well in intermediate and deep water conditions because it produces reflections above 20%. ER-AWA reduces the number of initial assumptions, since it is based on the general linear wave theory, valid at any water depth.
-                        </p>
-                        <a href="https://olaflow.github.io/blog/new-branch-added-to-olaflow/" class="btn btn-dafault btn-details">Continue Reading</a>
-                    </div>
-                </article>
-                
-                <article class="wow fadeInDown" data-wow-delay=".3s" data-wow-duration="500ms">
-                    
-                    <div class="blog-content">
-                        <h2 class="blogpost-title">
-                            <a href="https://olaflow.github.io/blog/active-wave-absorption-enhancements-in-olaflow/">Active wave absorption enhancements in olaFlow</a>
-                        </h2>
-                        <div class="blog-meta">
-                            <span>Monday, Oct 22, 2018</span>
-                            <span>by
-                                Pablo Higuera
-                            </span>
-                            
-                            
-                            <span>
-                                Wave absorption, AWA
-                            </span>
-                            
-                        </div>
-                        <p>
-                            Today we are glad to present you Enhancing active wave absorption in RANS models, our new preprint, soon to be published:
-Enhancing active wave absorption in RANS models In this work we review the most common methods for absorbing waves in Reynolds-Averaged Navier-Stokes (RANS) models. The limitations of active wave absorption, originating from its initial assumption of linear wave theory in shallow waters are overcome and the range of applicability is extended to any relative water depth conditions by re-deriving the formulation.
-                        </p>
-                        <a href="https://olaflow.github.io/blog/active-wave-absorption-enhancements-in-olaflow/" class="btn btn-dafault btn-details">Continue Reading</a>
-                    </div>
-                </article>
-                
+
+<p>Today we have an important announcement for the <a href="https://github.com/phicau/olaFlow">olaFlow</a> community. The long wait to have access to the Extended Range Active Wave Absorption (ER-AWA) introduced in <a href="/blog/active-wave-absorption-enhancements-in-olaflow/">our previous post</a> is over.</p>
+
+<p>The traditional AWA (SW-AWA) is based on the shallow water approximation for linear wave theory, thus, it does not perform well in intermediate and deep water conditions because it produces reflections above 20%. ER-AWA reduces the number of initial assumptions, since it is based on the general linear wave theory, valid at any water depth. In short, ER-AWA is a step forward with respect to the traditional SW-AWA because it effectively reduces the spurious reflections in intermediate and deep water conditions, thus, allowing longer and cleaner simulations (especially for offshore problems), as shown in this video.</p>
+
+<p><br><center><div class="embed video-player">
+    <iframe class="youtube-player" type="text/html" width="640" height="385" src="https://www.youtube.com/embed/dcTBO7Udw3E" allowfullscreen frameborder="0">
+    </iframe>
+    </div></center><br></p>
+
+<p>You can obtain all the technical details about the new absorption method, as well as performance data, in <a href="https://arxiv.org/abs/1810.03492"><strong>Enhancing active wave absorption in RANS models</strong></a>.</p>
+
+<p><br></p>
+
+<h2 id="what-has-changed">What has changed?</h2>
+
+<p>OlaFlow now features a Developer branch (<em>Dev</em>) in which we have included these new features before we integrate them in the main release branch (<em>master</em>).</p>
+
+<p>The code in the <em>Dev</em> branch includes three active wave absorption models, equivalent to the old <em>waveAbsorption2DVelocity</em> and <em>waveAbsorption3DVelocity</em>, plus the new ER-AWA theory. All three models are bounded together in the new <em>waveAbsorptionVelocity</em> boundary condition.</p>
+
+<p><em>waveAbsorption2DVelocity</em> and <em>waveAbsorption3DVelocity</em> boundary conditions, although now redundant, have been kept to allow users to adapt to the new code changes.</p>
+
+<p>A new tutorial, <strong>baseWaveFlumeNewAbs</strong>, which is almost identical to the <em>baseWaveFlume</em> tutorial shows how to use ER-AWA.</p>
+
+<p><br></p>
+
+<h2 id="what-are-the-limitations">What are the limitations?</h2>
+
+<p>The new code is only applicable to absorbing-only boundaries at this moment. We will soon integrate it with the general generation-absorption boundary conditions.</p>
+
+<p><br></p>
+
+<h2 id="how-to-access-the-new-materials">How to access the new materials?</h2>
+
+<p>To access the new code, you just need to perform a code update as usual:</p>
+
+<p><code>git checkout</code><br />
+<code>git pull</code></p>
+
+<p>Then change to the new branch with the following command:</p>
+
+<p><code>git checkout Dev</code></p>
+
+<p>Finally, compile the code normally.</p>
+
+<p><br></p>
+
+<h2 id="how-to-use-the-new-boundary-conditions">How to use the new boundary conditions?</h2>
+
+<p>The new boundary conditions are set in a very similar way as before in the velocity file:</p>
+
+<pre><code class="language-C++">    outlet
+    {
+        type            waveAbsorptionVelocity;
+        theory          extendedRangeAWA;
+        wavePeriod      3;
+        value           uniform (0 0 0);
+    }
+</code></pre>
+
+<p><em>Alpha</em> and <em>p_rgh</em> should continue carrying the same boundary conditions as before, namely <em>zeroGradient</em> and <em>fixedFluxPressure</em>. Also, do not forget that the <em>extendedRangeAWA</em> model requires introducing <em>wavePeriod</em> as input.</p>
+
+<p>The new valid active wave absorption model types are:</p>
+
+<ul>
+<li><em>shallowWaterAWA</em> (equivalent to <em>waveAbsorption2DVelocity</em>)</li>
+<li><em>extendedRangeAWA</em> (<strong>NEW</strong>)</li>
+<li><em>lateralShallowWaterAWA</em> (equivalent to <em>waveAbsorption3DVelocity</em>)</li>
+</ul>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="blog-content">
+                    <a href="/blog/" class="btn btn-dafault btn-details">Back to the Blog Section</a>
+                </div>
             </div>
         </div>
     </div>
