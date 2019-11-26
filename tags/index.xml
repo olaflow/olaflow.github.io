@@ -6,7 +6,7 @@
     <description>Recent content in Tags on olaFlow | CFD for waves</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 13 Jun 2019 12:20:40 +0600</lastBuildDate>
+    <lastBuildDate>Mon, 25 Nov 2019 12:20:40 +0600</lastBuildDate>
     
 	<atom:link href="https://olaflow.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,9 +14,27 @@
     <item>
       <title>AWA</title>
       <link>https://olaflow.github.io/tags/awa/</link>
-      <pubDate>Thu, 13 Jun 2019 12:20:40 +0600</pubDate>
+      <pubDate>Mon, 25 Nov 2019 12:20:40 +0600</pubDate>
       
       <guid>https://olaflow.github.io/tags/awa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Publication</title>
+      <link>https://olaflow.github.io/tags/publication/</link>
+      <pubDate>Mon, 25 Nov 2019 12:20:40 +0600</pubDate>
+      
+      <guid>https://olaflow.github.io/tags/publication/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wave absorption</title>
+      <link>https://olaflow.github.io/tags/wave-absorption/</link>
+      <pubDate>Mon, 25 Nov 2019 12:20:40 +0600</pubDate>
+      
+      <guid>https://olaflow.github.io/tags/wave-absorption/</guid>
       <description></description>
     </item>
     
@@ -26,15 +44,6 @@
       <pubDate>Thu, 13 Jun 2019 12:20:40 +0600</pubDate>
       
       <guid>https://olaflow.github.io/tags/development/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Wave absorption</title>
-      <link>https://olaflow.github.io/tags/wave-absorption/</link>
-      <pubDate>Thu, 13 Jun 2019 12:20:40 +0600</pubDate>
-      
-      <guid>https://olaflow.github.io/tags/wave-absorption/</guid>
       <description></description>
     </item>
     
@@ -134,15 +143,6 @@
       <pubDate>Wed, 10 Jan 2018 12:20:40 +0600</pubDate>
       
       <guid>https://olaflow.github.io/tags/focussed-waves/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Publication</title>
-      <link>https://olaflow.github.io/tags/publication/</link>
-      <pubDate>Wed, 10 Jan 2018 12:20:40 +0600</pubDate>
-      
-      <guid>https://olaflow.github.io/tags/publication/</guid>
       <description></description>
     </item>
     
