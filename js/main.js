@@ -174,8 +174,11 @@ $(".fancybox").fancybox({
 });
 
 // Collapsible
-var coll = document.getElementsByClassName("collapsible");
-var i;
+var coll1 = Array.from(document.getElementsByClassName("collapsibleGrey"))
+     ,coll2 = Array.from(document.getElementsByClassName("collapsibleBlue"))
+     ,coll = Array.from(new Set(coll1.concat(coll2)))
+
+     var i;
 
 for (i = 0; i < coll.length; i++) {
   coll[i].addEventListener("click", function() {

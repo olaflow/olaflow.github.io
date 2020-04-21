@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Wave generation on olaFlow | CFD for waves</title>
@@ -17,8 +17,7 @@
       <pubDate>Tue, 29 Nov 2016 12:20:40 +0600</pubDate>
       
       <guid>https://olaflow.github.io/blog/olafoam-generation-capabilities-grow-with-the-flap-wavemaker/</guid>
-      <description>This is an old post saved for archival purposes only. The olaFoam project is now the olaFlow project 
-Today the OLAFOAM project advances a step further in the simulation of laboratory facilities wave-making technologies. With the extension of the moving-boundary module to include flap wavemakers, OLAFOAM is now capable of reproducing the most widely-spread wave generation systems (piston and flap). Furthermore, the piston type includes an active wave absorption system to generate the selected waves while self-adjusting to absorb any incident wave to the boundary.</description>
+      <description>This is an old post saved for archival purposes only. The olaFoam project is now the olaFlow project  This new job has involved a significant coding effort and a redesign of the previous boundary condition for wall displacement. The name of the BC has also changed to reflect the present universal approach; now it is called wavemakerMovement instead of multiPistonMovement. Slight changes in the tutorials were required to adjust for such changes, although the basic functionality remains.</description>
     </item>
     
   </channel>

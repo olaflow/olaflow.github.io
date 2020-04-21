@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="keywords" content="">
     <meta name="author" content="">
-    <meta name="generator" content="Hugo 0.55.5" />
+    <meta name="generator" content="Hugo 0.67.1" />
     
     <!-- Mobile Specific Metas -->
     <meta name="format-detection" content="telephone=no">
@@ -202,11 +202,8 @@
             <div class="col-md-12">
                 <div class="textblock">
                     <p><p>OlaFlow is an open source project conceived as a continuation of the work in <a href="/development-team">Pablo Higuera&rsquo;s</a> thesis. The development has been continuous from <a href="https://github.com/phicau/IHFOAM">ihFoam</a> (Jul 8, 2014 - Feb 11, 2016) and olaFoam (Mar 2, 2016 - Nov 25, 2017).</p>
-
 <p>This free and open source project is committed to bringing the latest advances in the simulation of wave dynamics to the OpenFOAM® and FOAM-extend communities.</p>
-
 <p>The program solves the three-dimensional Volume Averaged Reynolds Averaged Navier Stokes equations (VARANS) using the finite volume discretization. The two incompressible phases (water and air) are tracked using the Volume of Fluid (VOF) technique to represent complex free surface configurations. Turbulence modelling can be included by means of different approaches (RANS, LES, DNS) and a number of models available.</p>
-
 <p>The most remarkable features that olaFoam offers are physically correct two-phase flow through porous media, wave generation and active wave absorption handled at the boundaries of the domain (no increase in computational cost) and moving-boundary wave generation and absorption to mimic laboratory wavemakers of all kinds. Also, the program features other OpenFOAM advanced capabilities, as dynamic mesh refinement and mesh motion (6 DOF) for floating body simulation.</p>
 </p>
                 </div>
@@ -241,15 +238,10 @@
             <div class="col-md-12">
                 <div class="textblock">
                     <p><p>The VARANS equations represent physically the flow inside porous media. In order to define the mean (volume-averaged) inside the porous materials, some physical parameters are needed, namely the porosity (phi) and mean nominal diameter (D50).</p>
-
 <p>The closure terms in the Navier-Stokes equations are formulated in terms of linear, nonlinear and transient components. Each of these depend on a tuning factor (alpha, beta, C), that needs to be established in a case by case basis. Generally, the user needs to select the best-fit values according to their experimental or theoretical data.</p>
-
 <p>The continuity and momentum conservation equations are as follows:</p>
-
 <p>$$\frac{\partial \langle u_i \rangle}{\partial x_i} = 0$$</p>
-
-<p><br></p>
-
+<!-- raw HTML omitted -->
 <p>$$\frac{1 + C}{\phi} \frac{\partial \rho \langle u_i \rangle}{\partial t} +
 \frac{1}{\phi} \frac{\partial}{\partial x_j}
 \left[ \frac{1}{\phi} \rho \langle u_i \rangle \langle u_j \rangle \right] =$$
@@ -261,9 +253,7 @@ F_i^{ST}$$
 $$ - \alpha \frac{(1 - \phi)^3}{\phi_3} \frac{\mu}{D_{50}^2} \langle u_i \rangle -
 \beta \left( 1 + \frac{7.5}{\mbox{KC}} \right) \frac{1 - \phi}{\phi_3}
 \frac{\rho}{D_{50}} \sqrt{\langle u_j \rangle \langle u_j \rangle} \langle u_i \rangle$$</p>
-
 <p>It can be noted that VARANS equations are simultaneously applicable outside porous media, because porosity is equal to 1 in the clear flow region.</p>
-
 <p>For a complete derivation of the equations see Pablo Higuera&rsquo;s thesis in the <a href="/numerical-model/model-references/">references section</a>.</p>
 </p>
                 </div>
@@ -298,7 +288,6 @@ $$ - \alpha \frac{(1 - \phi)^3}{\phi_3} \frac{\mu}{D_{50}^2} \langle u_i \rangle
             <div class="col-md-12">
                 <div class="textblock">
                     <p><p>The pressure-velocity equations are solved by a two step method called PIMPLE, derived from PISO (Pressure Implicit with Splitting of Operators) and SIMPLE (Semi-Implicit Method for Pressure-Linked Equations). PIMPLE main structure is inherited from the original PISO, but it allows equation under-relaxation, as in SIMPLE, to ensure the convergence of all the equations at each time step.</p>
-
 <p>The VOF function advection-diffusion equation is solved with an independent method called MULES (multi-dimensional limiter for explicit solution). From version 2.3.0, this technique includes a new semi-implicit variant, which combines operator splitting with application of the MULES limiter to an explicit correction rather than to the complete flux. In principle this is advantageous, as it will enhance the stability for larger Courant numbers.</p>
 </p>
                 </div>
@@ -333,9 +322,7 @@ $$ - \alpha \frac{(1 - \phi)^3}{\phi_3} \frac{\mu}{D_{50}^2} \langle u_i \rangle
             <div class="col-md-12">
                 <div class="textblock">
                     <p><p>olaFlow includes a set of boundary conditions to generate and to absorb waves at the boundaries, with the advantage that no buffer or damping zone needs to be included, thus saving significant computational cost and obtaining a faster performance.</p>
-
 <p>The available wave theories cover the full range of relative depths, from linear Stokes I to high order cnoidal. Irregular sea states, including second order generation and directionality, are also accounted for.</p>
-
 <p>Waves can also be generated and absorbed as in physical facilities, by means of piston and flap wavemakers. Mixed-types wavemakers will be developed in a near future.</p>
 </p>
                 </div>

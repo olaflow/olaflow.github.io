@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Source code on olaFlow | CFD for waves</title>
@@ -17,9 +17,9 @@
       <pubDate>Wed, 29 Jun 2016 12:20:40 +0600</pubDate>
       
       <guid>https://olaflow.github.io/blog/olafoam-updated-to-openfoam-4.0/</guid>
-      <description>This is an old post saved for archival purposes only. The olaFoam project is now the olaFlow project 
-OpenFOAM 4.0 was released yesterday with the latest updates and bug fixes. Claiming to introduce &amp;ldquo;significant improvements and changes to general usability, post-processing, case management and software management&amp;rdquo;, and having a very similar code structure and usage with respect to previous version, it makes sense to do the change.
-Therefore, olaFoam has already been adapted to be compiled and work under OpenFOAM 4.</description>
+      <description>This is an old post saved for archival purposes only. The olaFoam project is now the olaFlow project Therefore, olaFoam has already been adapted to be compiled and work under OpenFOAM 4.0. Also, the tutorials for OpenFOAM 3.0.0 have been modified to work also for version 4.0, as the sampling process is rather different now.
+The update process is extremely straightforward, as referenced in the source code section:
+git checkout git pull Finally, the code needs to be recompiled, which is as easy as always:</description>
     </item>
     
   </channel>

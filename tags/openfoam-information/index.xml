@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>OpenFOAM information on olaFlow | CFD for waves</title>
@@ -17,8 +17,7 @@
       <pubDate>Mon, 04 Jul 2016 12:20:40 +0600</pubDate>
       
       <guid>https://olaflow.github.io/blog/what-is-what-and-who-is-who-in-the-openfoam-environment/</guid>
-      <description>This is an old post saved for archival purposes only. The olaFoam project is now the olaFlow project 
-The latest releases that have widened the spectrum of the OpenFOAM environment may confuse some of the new and not so new users. I myself did not know about certain of the new tastes that OpenFOAM has until very recently. This is why I decided to create this post, to sketch what is what and who is who in the OpenFOAM environment.</description>
+      <description>This is an old post saved for archival purposes only. The olaFoam project is now the olaFlow project The starting point shall be answering, what is OpenFOAM? The answer might be simple, but is has a lot of complex implications: OpenFOAM is a multiphysics CFD open source code that is under active development. It derives from an early code created at Imperial College London called FOAM, and it has evolved a lot since those days.</description>
     </item>
     
   </channel>

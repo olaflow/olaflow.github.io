@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="keywords" content="">
     <meta name="author" content="">
-    <meta name="generator" content="Hugo 0.55.5" />
+    <meta name="generator" content="Hugo 0.67.1" />
     
     <!-- Mobile Specific Metas -->
     <meta name="format-detection" content="telephone=no">
@@ -157,56 +157,33 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="post-content">
-                    
-
-<p><img class="block" align="right" style="padding:15px 15px 15px 15px; max-width: 50%;" src="/images/olaFlowBreaking.png"></p>
-
+                    <!-- raw HTML omitted -->
 <p>Turbulence is an extremely important physical process, especially when studying wave breaking or wave impacts on a structure. However, OpenFOAM® does not provide by default incompressible turbulence models for multiphase systems (i.e. models that take into account the density variation between the air and water phases). This often results in a well-known excessive wave height damping (due to the increasing nut) as the simulation progresses, due to turbulence build-up.</p>
-
 <p>Today olaFlow CFD is presenting a library that provides modified versions of k-ε and k-ω SST turbulence models to simulate correctly multiphase systems and mitigate this effect.</p>
-
 <p>Moreover, a new variation of the k-ω SST model, recently proposed in an excellent paper by <strong>Devolder et al. (2017)</strong> to model free surface cases (e.g. waves) correctly, is also included. Their model features an additional buoyancy term that helps suppress the spurious turbulence generation at the free surface.</p>
-
 <p>This new library is part of the olaFlow supplementary materials repository:</p>
-
 <ul>
 <li><a href="https://github.com/phicau/olaFlow_supplementary">https://github.com/phicau/olaFlow_supplementary</a></li>
 </ul>
-
 <p>It is hosted in the turbulenceMultiphase folder and includes the source code and a tutorial to test the effects of the turbulence models, as in the videos below.</p>
-
 <p>You can follow the link for full information on how to download and compile this module and use it in you cases.</p>
-
-<p><br><center><div class="embed video-player">
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --><div class="embed video-player">
     <iframe class="youtube-player" type="text/html" width="640" height="385" src="https://www.youtube.com/embed/20cpgpBtcGE" allowfullscreen frameborder="0">
     </iframe>
-    </div></center><br></p>
-
-<p><center><div class="embed video-player">
-    <iframe class="youtube-player" type="text/html" width="640" height="385" src="https://www.youtube.com/embed/eHLF_wzAMn4" allowfullscreen frameborder="0">
-    </iframe>
-    </div></center><br></p>
-
-<p><center><div class="embed video-player">
-    <iframe class="youtube-player" type="text/html" width="640" height="385" src="https://www.youtube.com/embed/TPbodvlpLI8" allowfullscreen frameborder="0">
-    </iframe>
-    </div></center><br></p>
-
+    </div><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
 <p>The turbulence models have also been tested on a more meaningful context in which waves break on a 1:10 slope.
 These results make clear the importance of running a density-aware turbulence model to prevent turbulence build-up in two-phase simulations.</p>
-
 <p>It can be noticed that the dissipation of OpenFOAM default models is excessive and that the model presented in <strong>Devolder et al. (2017)</strong> shows the best performance among all.</p>
-
 <h2 id="references">References</h2>
-
-<p><strong>Devolder, B., Rauwoens, P. &amp; Troch, P. (2017)</strong><br />
-Application of a buoyancy-modified k-ω SST turbulence model to simulate wave run-up around a monopile subjected to regular waves using OpenFOAM®.<br />
-<em>Coastal Engineering, 125, 81–94.</em><br />
+<p><strong>Devolder, B., Rauwoens, P. &amp; Troch, P. (2017)</strong><br>
+Application of a buoyancy-modified k-ω SST turbulence model to simulate wave run-up around a monopile subjected to regular waves using OpenFOAM®.<br>
+<em>Coastal Engineering, 125, 81–94.</em><br>
 <a href="https://doi.org/10.1016/j.coastaleng.2017.04.004">doi:10.1016/j.coastaleng.2017.04.004</a></p>
-
-<p><strong>Devolder, B., Troch, P. &amp; Rauwoens, P. (2018)</strong><br />
-Performance of a buoyancy-modified k-ω and k-ω SST turbulence model for simulating wave breaking under regular waves using OpenFOAM®.<br />
-<em>Coastal Engineering, 138, 49–65.</em><br />
+<p><strong>Devolder, B., Troch, P. &amp; Rauwoens, P. (2018)</strong><br>
+Performance of a buoyancy-modified k-ω and k-ω SST turbulence model for simulating wave breaking under regular waves using OpenFOAM®.<br>
+<em>Coastal Engineering, 138, 49–65.</em><br>
 <a href="https://doi.org/10.1016/j.coastaleng.2018.04.011">doi:10.1016/j.coastaleng.2018.04.011</a></p>
 
                 </div>

@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="keywords" content="">
     <meta name="author" content="">
-    <meta name="generator" content="Hugo 0.55.5" />
+    <meta name="generator" content="Hugo 0.67.1" />
     
     <!-- Mobile Specific Metas -->
     <meta name="format-detection" content="telephone=no">
@@ -157,46 +157,25 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="post-content">
-                    
-
-<h2 id="this-is-an-old-post-saved-for-archival-purposes-only-the-olafoam-project-is-now-the-olaflow-project">This is an old post saved for archival purposes only. The olaFoam project is now the <a href="/">olaFlow project</a></h2>
-
-<p><br>
-The latest releases that have widened the spectrum of the OpenFOAM environment may confuse some of the new and not so new users. I myself did not know about certain of the new tastes that OpenFOAM has until very recently. This is why I decided to create this post, to sketch what is what and who is who in the OpenFOAM environment. Although there are a number of OpenFOAM forks and flavours (see the image), I will only review in depth the three that are the best known or that are making people confused.</p>
-
+                    <h2 id="this-is-an-old-post-saved-for-archival-purposes-only-the-olafoam-project-is-now-the-olaflow-project">This is an old post saved for archival purposes only. The olaFoam project is now the <a href="/">olaFlow project</a></h2>
+<!-- raw HTML omitted -->
 <p>The starting point shall be answering, what is OpenFOAM? The answer might be simple, but is has a lot of complex implications: OpenFOAM is a multiphysics CFD open source code that is under active development. It derives from an early code created at Imperial College London called FOAM, and it has evolved a lot since those days. Since this is an open source code, anyone can have the great idea of forking it or starting a new project from it, and that is why the world around OpenFOAM is becoming very chaotic (although I love calling it lively).</p>
-
 <p>Until some months ago most of the users were aware of two main projects that took the lead: OpenFOAM (shall we call it original? official? vanilla?) and FOAM-Extend. Then OpenFOAM + came into play. The long story short of these projects is as follows:</p>
-
 <p><a href="https://openfoam.org/">OpenFOAM</a> - I guess there is no need to talk a lot about the first one. Some of the team that developed FOAM at Imperial, decided to create &ldquo;The OpenFOAM Foundation&rdquo; to continue developing the code, fixing bugs, offering courses and specialized consultancy. Since then, they have released a new version approximately every 6 months. Very recently version 4.0 was released, following version 3.0.1.</p>
-
 <p>Some people criticize the way decisions are taken internally, as for example heavy changes in the structure of the code are introduced each version, making difficult to have cross-compatible code. Also, the policy for accepting contributions is very strict, thus reducing the willingness of the community to make their developments publicly available and included in the distribution. I, personally, use this flavour on a daily basis.</p>
-
 <p><a href="http://www.extend-project.de/">FOAM-Extend</a> - This is the community-driven branch of OpenFOAM. There was a strong community effort to push OpenFOAM 1.6 (vanilla) and creating the so-called OpenFOAM 1.6-Ext, which is still in well use today. Trouble started with the following vanilla release (1.7), which had so many coding changes that rendered unusable most of the community previous developments (especially in the turbomachinery field). Since the community was big and supported by some of the original developers (Wikki), they decided to go for their own branch: FOAM-Extend.</p>
-
 <p>This project offers a new version each year, coinciding with the OpenFOAM Workshop (that means that we will soon have a new version), but they also have a developer branch in which they fix bugs all the time. In terms of comparing it to OpenFOAM vanilla, FOAM-Extend does not offer some of the most recent advances (as for example the semi-implicit MULES solver), but it does offer rather unique functionalities as immersed boundary method or a single-phase solver for free surface flows. Also the policy for accepting contributions is completely open, making it a good environment for user innovation. I also use this version, although less frequently than OpenFOAM vanilla.</p>
-
 <p><a href="https://www.openfoam.com/">OpenFOAM +</a> - This is one of the latest projects, as it appeared around six months ago out of the blue. OpenFOAM+ is developed by OpenCFD Ltd and ESI, the people who bought the OpenFOAM trademark some years ago. They took some time to figure out a successful business model, but since they are offering custom additions to the code, their clients can opt to make them public after some time, and this is the added value of this distribution. Interestingly, they also provide a version that runs under Windows.</p>
-
 <p>This project uses the OpenFOAM Foundation version as a common code base. Since they have a similar release timing, OpenFOAM + latest version does not include all the latest features and bug fixes, but only those that were available a couple of months before. One of the reasons why users were so confused six months ago was that OpenFOAM 3.0 and OpenFOAM 3.0+ started coexisting, and it was very difficult finding an explanation of the differences between them. The latest version, just released, adds more functionalities and changes the numbering scheme to OpenFOAM 1606+ (YearMonth+), making easier to distinguish if we skip the + character. Since this is a very new distribution, I have never used it. Up to this moment I have just installed it to make the code changes necessary for olaFoam to be compatible.</p>
-
 <p>This situation can be summarized/simplified in a diagram:</p>
-
-<p><center><img class="block" style="padding:15px 15px 15px 15px; max-width: 90%;" src="/images/blog/whoiswhoopenfoam.png"></center></p>
-
+<!-- raw HTML omitted -->
 <p>So, if users still have the question: which flavour should I use? In a few words:</p>
-
 <p><strong>OpenFOAM</strong>: You cannot go wrong with the official version. Latest developments and bug fixes.</p>
-
 <p><strong>OpenFOAM +</strong>: Similar to the previous one, but slightly behind. It includes some new features and provides a Windows version.</p>
-
 <p><strong>FOAM-Extend</strong>: Quite different from the ones before, following its own path. It includes significant new features, as immersed boundary and future developments are not likely to render your solvers unusable for next versions.</p>
-
 <p>In any case, <a href="/">olaFoam</a> is fully compatible with any of these three distributions.</p>
-
 <p>If you want to read further about this topic or have any additional questions I suggest that you can start by taking a look here:
 <a href="http://www.cfd-online.com/Forums/openfoam/165322-openfoam-v3-0-a.html">http://www.cfd-online.com/Forums/openfoam/165322-openfoam-v3-0-a.html</a></p>
-
 <p>Disclaimer: this is just a simplistic representation of the complex OpenFOAM universe, and should only be used as an orientation tool. If you spot any mistake or disagree with anything shown in this article, do let me know through the <a href="/contact/">contact section</a>.</p>
 
                 </div>

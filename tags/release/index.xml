@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Release on olaFlow | CFD for waves</title>
@@ -18,7 +18,6 @@
       
       <guid>https://olaflow.github.io/blog/releasing-olaflow/</guid>
       <description>It has been almost two years since I released olaFoam, after finishing my PhD and starting a new postdoc at the National University of Singapore. In this time I have added functionalities (piston and flap wavemakers, simultaneous wave and current generation, additional wave theories&amp;hellip;), increased performance and compatibility, and fixed bugs. Today I continue walking ahead towards a bigger project.
-
 It is my pleasure to introduce olaFlow CFD suite, the new evolution in active wave generation and absorption frameworks in OpenFOAM®.</description>
     </item>
     
@@ -28,9 +27,8 @@ It is my pleasure to introduce olaFlow CFD suite, the new evolution in active wa
       <pubDate>Mon, 07 Mar 2016 12:20:40 +0600</pubDate>
       
       <guid>https://olaflow.github.io/blog/olafoam-release-the-evolution-of-ihfoam/</guid>
-      <description>This is an old post saved for archival purposes only. The olaFoam project is now the olaFlow project 
-It is my pleasure to present a new numerical model based on the popular and widely used OpenFOAM: OLAFOAM.
-OLAFOAM is the evolution of IHFOAM, a well-known three-dimensional Navier-Stokes solver for free surface flows, and is born with the spirit of providing the latest advances for the simulation of wave dynamics to the OpenFOAM and FOAM-extend communities.</description>
+      <description>This is an old post saved for archival purposes only. The olaFoam project is now the olaFlow project OLAFOAM is the evolution of IHFOAM, a well-known three-dimensional Navier-Stokes solver for free surface flows, and is born with the spirit of providing the latest advances for the simulation of wave dynamics to the OpenFOAM and FOAM-extend communities.
+At this initial stage OLAFOAM is a slightly modified version of IHFOAM, but new implementations and updates (see roadmap in the wiki site) will be readily available soon.</description>
     </item>
     
   </channel>

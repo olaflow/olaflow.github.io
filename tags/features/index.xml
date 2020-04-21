@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Features on olaFlow | CFD for waves</title>
@@ -17,8 +17,7 @@
       <pubDate>Tue, 29 Nov 2016 12:20:40 +0600</pubDate>
       
       <guid>https://olaflow.github.io/blog/olafoam-generation-capabilities-grow-with-the-flap-wavemaker/</guid>
-      <description>This is an old post saved for archival purposes only. The olaFoam project is now the olaFlow project 
-Today the OLAFOAM project advances a step further in the simulation of laboratory facilities wave-making technologies. With the extension of the moving-boundary module to include flap wavemakers, OLAFOAM is now capable of reproducing the most widely-spread wave generation systems (piston and flap). Furthermore, the piston type includes an active wave absorption system to generate the selected waves while self-adjusting to absorb any incident wave to the boundary.</description>
+      <description>This is an old post saved for archival purposes only. The olaFoam project is now the olaFlow project  This new job has involved a significant coding effort and a redesign of the previous boundary condition for wall displacement. The name of the BC has also changed to reflect the present universal approach; now it is called wavemakerMovement instead of multiPistonMovement. Slight changes in the tutorials were required to adjust for such changes, although the basic functionality remains.</description>
     </item>
     
     <item>
@@ -27,9 +26,8 @@ Today the OLAFOAM project advances a step further in the simulation of laborator
       <pubDate>Wed, 22 Jun 2016 12:20:40 +0600</pubDate>
       
       <guid>https://olaflow.github.io/blog/tsunami-generator-and-updates-soon/</guid>
-      <description>This is an old post saved for archival purposes only. The olaFoam project is now the olaFlow project 
-The development of olaFoam is ongoing. Day by day we are testing new features and generating challenging simulations that push OpenFOAM simulations one step further.
-Today I would like to present an implementation of the pneumatic tsunami wave generator, a pressure-driven device that can generate very long waves and is especially good at simulating the initial phase that precedes a tsunami, in which water retreats from the shore.</description>
+      <description>This is an old post saved for archival purposes only. The olaFoam project is now the olaFlow project Today I would like to present an implementation of the pneumatic tsunami wave generator, a pressure-driven device that can generate very long waves and is especially good at simulating the initial phase that precedes a tsunami, in which water retreats from the shore. Check the video out:
+ As you can see, the leftmost deposit has a newly-developed boundary condition that induces a pressure gradient and drives the water.</description>
     </item>
     
     <item>
@@ -38,12 +36,9 @@ Today I would like to present an implementation of the pneumatic tsunami wave ge
       <pubDate>Fri, 29 Apr 2016 12:20:40 +0600</pubDate>
       
       <guid>https://olaflow.github.io/blog/waves-and-currents-are-here/</guid>
-      <description>This is an old post saved for archival purposes only. The olaFoam project is now the olaFlow project 
-It is my pleasure to announce the release of one of the long-awaited features in olaFoam: simultaneous generation and absorption of waves and currents.
-Check this video out (best in 1080p):
-
- 
-A 2D wave flume is set up with different wave conditions. From top to bottom you can see: waves only, current only, and simultaneous waves and current traveling in the same and in opposite directions.</description>
+      <description>This is an old post saved for archival purposes only. The olaFoam project is now the olaFlow project Check this video out (best in 1080p):
+ A 2D wave flume is set up with different wave conditions. From top to bottom you can see: waves only, current only, and simultaneous waves and current traveling in the same and in opposite directions.
+It is interesting to note the effects caused by wave and current interaction: variations in the velocity field and the Doppler effect affecting wave propagation.</description>
     </item>
     
   </channel>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Coupling on olaFlow | CFD for waves</title>
@@ -19,7 +19,7 @@
       <guid>https://olaflow.github.io/blog/olaflow-coupling-with-isoadvector/</guid>
       <description>IsoAdvector is a new method for two-phase flow advection developed by Johan Roenby.
 Leaving major technical details out (you can find all the details in A computational method for sharp interface advection), isoAdvector produces an extremely sharp interface at a fraction of the computational cost of previous surface tracking methods, because it reduces the number of geometric operations needed for free surface advection.
-The sharpness of the interface is clear when comparing the results of a dam break test case against the solution obtained with OpenFOAM®&amp;rsquo;s MULES solver.</description>
+The sharpness of the interface is clear when comparing the results of a dam break test case against the solution obtained with OpenFOAM®&#39;s MULES solver.</description>
     </item>
     
   </channel>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Focussed waves on olaFlow | CFD for waves</title>
@@ -17,8 +17,7 @@
       <pubDate>Wed, 10 Jan 2018 12:20:40 +0600</pubDate>
       
       <guid>https://olaflow.github.io/blog/-first-olaflow-publication/</guid>
-      <description>It is great to start 2018 having a paper published, the first with olaFlow. In Simulating Breaking Focused Waves in CFD: Methodology for Controlled Generation of First and Second Order we apply a methodology to accurately generate wave breaking with focussing waves, both for laboratory experiments and numerical simulations with olaFlow CFD Suite.
-Simulating Breaking Focused Waves in CFD: Methodology for Controlled Generation of First and Second Order A new methodology is proposed for the generation of breaking focused waves in computational fluid dynamics (CFD) simulations.</description>
+      <description>It is great to start 2018 having a paper published, the first with olaFlow. In Simulating Breaking Focused Waves in CFD: Methodology for Controlled Generation of First and Second Order we apply a methodology to accurately generate wave breaking with focussing waves, both for laboratory experiments and numerical simulations with olaFlow CFD Suite.Simulating Breaking Focused Waves in CFD: Methodology for Controlled Generation of First and Second Order A new methodology is proposed for the generation of breaking focused waves in computational fluid dynamics (CFD) simulations.</description>
     </item>
     
   </channel>

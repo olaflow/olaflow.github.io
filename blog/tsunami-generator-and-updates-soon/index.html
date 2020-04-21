@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="keywords" content="">
     <meta name="author" content="">
-    <meta name="generator" content="Hugo 0.55.5" />
+    <meta name="generator" content="Hugo 0.67.1" />
     
     <!-- Mobile Specific Metas -->
     <meta name="format-detection" content="telephone=no">
@@ -157,30 +157,18 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="post-content">
-                    
-
-<h2 id="this-is-an-old-post-saved-for-archival-purposes-only-the-olafoam-project-is-now-the-olaflow-project">This is an old post saved for archival purposes only. The olaFoam project is now the <a href="/">olaFlow project</a></h2>
-
-<p><br>
-The development of olaFoam is ongoing. Day by day we are testing new features and generating challenging simulations that push OpenFOAM simulations one step further.</p>
-
+                    <h2 id="this-is-an-old-post-saved-for-archival-purposes-only-the-olafoam-project-is-now-the-olaflow-project">This is an old post saved for archival purposes only. The olaFoam project is now the <a href="/">olaFlow project</a></h2>
+<!-- raw HTML omitted -->
 <p>Today I would like to present an implementation of the <strong>pneumatic tsunami wave generator</strong>, a pressure-driven device that can generate very long waves and is especially good at simulating the initial phase that precedes a tsunami, in which water retreats from the shore. Check the video out:</p>
-
-<p><br><center><div class="embed video-player">
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --><div class="embed video-player">
     <iframe class="youtube-player" type="text/html" width="640" height="385" src="https://www.youtube.com/embed/BLlYiM_mGzI" allowfullscreen frameborder="0">
     </iframe>
-    </div></center><br></p>
-
+    </div><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
 <p>As you can see, the leftmost deposit has a newly-developed boundary condition that induces a pressure gradient and drives the water. After propagation, the water level at the toe of the sloping section looks like this:</p>
-
-<p><center><img class="block" style="padding:15px 15px 15px 15px; max-width: 90%;" src="/images/blog/tsunamiFreeSurface.png"></center></p>
-
+<!-- raw HTML omitted -->
 <p>Afterwards, the water runs up the slope, passes over a flat section and reaches a deposit on the right hand side. We can also do an analysis on how overtopping looks like:</p>
-
-<p><center><img class="block" style="padding:15px 15px 15px 15px; max-width: 90%;" src="/images/blog/tsunamiOvertopping.png"></center></p>
-
+<!-- raw HTML omitted -->
 <p>One of the drawbacks of this method is that long waves do not dissipate that easy and get reflected back both at the beach and at the wave generator. Having a flume long enough will minimize that undesired reflection effects during the time of interest. Another option would be connecting olaFoam&rsquo;s active wave absorption at the leftmost boundary after the target wave has been generated, thus minimizing re-reflections. Since such long waves are within the shallow water regime, the effectivity of the boundary condition will be very high.</p>
-
 <p>Stay tuned, you can expect new updates soon!</p>
 
                 </div>

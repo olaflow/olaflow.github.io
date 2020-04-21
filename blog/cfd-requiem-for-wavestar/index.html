@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="keywords" content="">
     <meta name="author" content="">
-    <meta name="generator" content="Hugo 0.55.5" />
+    <meta name="generator" content="Hugo 0.67.1" />
     
     <!-- Mobile Specific Metas -->
     <meta name="format-detection" content="telephone=no">
@@ -157,26 +157,16 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="post-content">
-                    
-
-<h2 id="this-is-an-old-post-saved-for-archival-purposes-only-the-olafoam-project-is-now-the-olaflow-project">This is an old post saved for archival purposes only. The olaFoam project is now the <a href="/">olaFlow project</a></h2>
-
-<p><br>
-<a href="http://wavestarenergy.com/">Wavestar</a> is a Danish company that developed a new concept for a wave energy converter (WEC) device. The machine is a platform in which several floaters are attached to a hydraulic system that generates energy as they oscillate up and down with the waves.</p>
-
+                    <h2 id="this-is-an-old-post-saved-for-archival-purposes-only-the-olafoam-project-is-now-the-olaflow-project">This is an old post saved for archival purposes only. The olaFoam project is now the <a href="/">olaFlow project</a></h2>
+<!-- raw HTML omitted -->
 <p>The strongest point of this technology is that it can be built side by side with wind turbines in intermediate water depths, and that the energy production can be better anticipated, as wave forecasts are more reliable than wind forecasts.</p>
-
 <p>However, earlier this year <a href="https://renews.biz/102918/wavestar-future-on-knife-edge/">we learned</a> that the company failed to secure the external investment to match a European Commission 20.7 million euros grant, leaving the future of this technology in an idle state.</p>
-
 <p>As a homage to this project I decided to model it using the open source model <a href="/">olaFoam</a>. The most relevant challenges that this simulation overcomes are the simulation of 3 independent floating bodies at once and the constraints to avoid them drifting away. At this point the floaters move only vertically, which is an reasonable assumption in the case of small vertical displacements.</p>
-
-<p><br><center><div class="embed video-player">
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --><div class="embed video-player">
     <iframe class="youtube-player" type="text/html" width="640" height="385" src="https://www.youtube.com/embed/fE9sf_E9RGU" allowfullscreen frameborder="0">
     </iframe>
-    </div></center><br></p>
-
+    </div><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
 <p>The main specifications of this simulation at prototype scale are:</p>
-
 <ul>
 <li>Domain: 125 x 50x 30 m (Y plane symmetry)</li>
 <li>Floaters: 10 m diameter</li>
@@ -185,11 +175,8 @@
 <li>Computational resources: 16 processors</li>
 <li>Computational cost: 100 s simulated in 48 hours</li>
 </ul>
-
 <p>From the simulation results, the evolution of the elevation of each of the floaters can be extracted:</p>
-
-<p><center><img class="block" style="padding:15px 15px 15px 15px; max-width: 90%;" src="/images/blog/wavestarCOG.png"></center></p>
-
+<!-- raw HTML omitted -->
 <p>It can be observed how the displacements of the three elements are not identical and how they evolve in time. Towards the end of the signal they seem to have reached a quasi-steady state. The second and third elements are influenced by the wake of the first floater, thus they reach a lower height. It is also interesting to note how the local flow effects make that the maximum elevation of the second floater is the lowest of all three. The minimum elevations are approximately the same for the triplet.</p>
 
                 </div>

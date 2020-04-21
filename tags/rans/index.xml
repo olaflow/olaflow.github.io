@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>RANS on olaFlow | CFD for waves</title>
@@ -29,7 +29,8 @@ This library is part of the olaFlow supplementary materials repository:</descrip
       <pubDate>Mon, 16 Apr 2018 12:20:40 +0600</pubDate>
       
       <guid>https://olaflow.github.io/blog/turbulence-models-for-wave-simulations/</guid>
-      <description>Turbulence is an extremely important physical process, especially when studying wave breaking or wave impacts on a structure. However, OpenFOAM® does not provide by default incompressible turbulence models for multiphase systems (i.e. models that take into account the density variation between the air and water phases). This often results in a well-known excessive wave height damping (due to the increasing nut) as the simulation progresses, due to turbulence build-up.</description>
+      <description>Turbulence is an extremely important physical process, especially when studying wave breaking or wave impacts on a structure. However, OpenFOAM® does not provide by default incompressible turbulence models for multiphase systems (i.e. models that take into account the density variation between the air and water phases). This often results in a well-known excessive wave height damping (due to the increasing nut) as the simulation progresses, due to turbulence build-up.
+Today olaFlow CFD is presenting a library that provides modified versions of k-ε and k-ω SST turbulence models to simulate correctly multiphase systems and mitigate this effect.</description>
     </item>
     
   </channel>

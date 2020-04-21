@@ -420,18 +420,21 @@ a:hover {
   padding: 0px 0;
 }
 
-#aboutMdSection .textblock {
+#aboutMdSection .textblock,
+#aboutMdSection .collapsibleContent .textblock {
   padding: 10px 10px 10px 10px;
 }
 
-#aboutMdSection .textblock h2 {
+#aboutMdSection .textblock h2,
+#aboutMdSection .collapsibleContent .textblock h2 {
   font-size: 24px;
   font-weight: 600;
   margin-bottom: 0px;
   text-transform: uppercase;
 }
 
-#aboutMdSection .textblock p {
+#aboutMdSection .textblock p,
+#aboutMdSection .collapsibleContent .textblock p {
   color: #727272;
   font-size: 16px;
   line-height: 28px;
@@ -511,7 +514,8 @@ a:hover {
 }
 
 #about .block ul,
-#aboutMdSection .textblock ul {
+#aboutMdSection .textblock ul,
+#aboutMdSection .collapsibleContent .textblock ul {
   color: #727272;
   font-size: 16px;
   line-height: 28px;
@@ -544,11 +548,18 @@ a:hover {
 /* Style the collapsible content. Note: hidden by default */
 #aboutMdSection .collapsibleContent {
   overflow: hidden;
+  background-color: #fff;
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-#aboutMdSection .active, .collapsible:hover {
+#aboutMdSection .collapsible:hover {
   background-color: #ccc;
+}
+#aboutMdSection .collapsibleGrey:hover {
+  background-color: #c9c9c9;
+}
+#aboutMdSection .collapsibleBlue:hover {
+  background-color: #57a2cf;
 }
 
 .about-feature .block {

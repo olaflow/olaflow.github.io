@@ -1,11 +1,10 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
     <loc>https://olaflow.github.io/tags/awa/</loc>
     <lastmod>2019-11-25T12:20:40+06:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -14,33 +13,28 @@
   </url>
   
   <url>
+    <loc>https://olaflow.github.io/</loc>
+    <lastmod>2019-11-25T12:20:40+06:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://olaflow.github.io/tags/publication/</loc>
     <lastmod>2019-11-25T12:20:40+06:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://olaflow.github.io/tags/</loc>
     <lastmod>2019-11-25T12:20:40+06:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://olaflow.github.io/tags/wave-absorption/</loc>
     <lastmod>2019-11-25T12:20:40+06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://olaflow.github.io/</loc>
-    <lastmod>2019-11-25T12:20:40+06:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://olaflow.github.io/tags/development/</loc>
     <lastmod>2019-06-13T12:20:40+06:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -99,20 +93,18 @@
   </url>
   
   <url>
-    <loc>https://olaflow.github.io/blog/active-wave-absorption-enhancements-in-olaflow-copy/</loc>
+    <loc>https://olaflow.github.io/blog/active-wave-absorption-enhancements-in-olaflow/</loc>
     <lastmod>2018-10-22T12:20:40+06:00</lastmod>
   </url>
   
   <url>
     <loc>https://olaflow.github.io/tags/rans/</loc>
     <lastmod>2018-08-30T12:20:40+06:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://olaflow.github.io/tags/turbulence-models/</loc>
     <lastmod>2018-08-30T12:20:40+06:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -153,7 +145,6 @@
   <url>
     <loc>https://olaflow.github.io/portfolio/</loc>
     <lastmod>2018-07-12T16:59:54+06:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -184,13 +175,11 @@
   <url>
     <loc>https://olaflow.github.io/tags/citing/</loc>
     <lastmod>2018-06-24T12:20:40+06:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://olaflow.github.io/tags/doi/</loc>
     <lastmod>2018-06-24T12:20:40+06:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -206,19 +195,16 @@
   <url>
     <loc>https://olaflow.github.io/tags/paper/</loc>
     <lastmod>2018-05-30T12:20:40+06:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://olaflow.github.io/tags/solitary-wave/</loc>
     <lastmod>2018-05-30T12:20:40+06:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://olaflow.github.io/tags/swash-flows/</loc>
     <lastmod>2018-05-30T12:20:40+06:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -229,23 +215,20 @@
   <url>
     <loc>https://olaflow.github.io/tags/coupling/</loc>
     <lastmod>2018-03-19T12:20:40+06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://olaflow.github.io/tags/vof/</loc>
-    <lastmod>2018-03-19T12:20:40+06:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://olaflow.github.io/tags/isoadvector/</loc>
     <lastmod>2018-03-19T12:20:40+06:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://olaflow.github.io/blog/olaflow-coupling-with-isoadvector/</loc>
+    <lastmod>2018-03-19T12:20:40+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://olaflow.github.io/tags/vof/</loc>
     <lastmod>2018-03-19T12:20:40+06:00</lastmod>
   </url>
   
@@ -257,13 +240,11 @@
   <url>
     <loc>https://olaflow.github.io/tags/focussed-waves/</loc>
     <lastmod>2018-01-10T12:20:40+06:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://olaflow.github.io/tags/release/</loc>
     <lastmod>2017-12-19T12:20:40+06:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -274,13 +255,11 @@
   <url>
     <loc>https://olaflow.github.io/tags/features/</loc>
     <lastmod>2016-11-29T12:20:40+06:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://olaflow.github.io/tags/flap-wavemaker/</loc>
     <lastmod>2016-11-29T12:20:40+06:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -291,7 +270,6 @@
   <url>
     <loc>https://olaflow.github.io/tags/wave-generation/</loc>
     <lastmod>2016-11-29T12:20:40+06:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -302,25 +280,21 @@
   <url>
     <loc>https://olaflow.github.io/tags/dynamic-mesh/</loc>
     <lastmod>2016-08-16T12:20:40+06:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://olaflow.github.io/tags/floating-structure/</loc>
     <lastmod>2016-08-16T12:20:40+06:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://olaflow.github.io/tags/wave-energy-converter/</loc>
     <lastmod>2016-08-16T12:20:40+06:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://olaflow.github.io/tags/openfoam-information/</loc>
     <lastmod>2016-07-04T12:20:40+06:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -329,26 +303,23 @@
   </url>
   
   <url>
+    <loc>https://olaflow.github.io/blog/olafoam-updated-to-openfoam-4.0/</loc>
+    <lastmod>2016-06-29T12:20:40+06:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://olaflow.github.io/tags/source-code/</loc>
     <lastmod>2016-06-29T12:20:40+06:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://olaflow.github.io/tags/updates/</loc>
-    <lastmod>2016-06-29T12:20:40+06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://olaflow.github.io/blog/olafoam-updated-to-openfoam-4.0/</loc>
     <lastmod>2016-06-29T12:20:40+06:00</lastmod>
   </url>
   
   <url>
     <loc>https://olaflow.github.io/tags/tsunami/</loc>
     <lastmod>2016-06-22T12:20:40+06:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -359,7 +330,6 @@
   <url>
     <loc>https://olaflow.github.io/tags/wave-and-current-interaction/</loc>
     <lastmod>2016-04-29T12:20:40+06:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -374,7 +344,6 @@
   
   <url>
     <loc>https://olaflow.github.io/categories/</loc>
-    <priority>0</priority>
   </url>
   
 </urlset>

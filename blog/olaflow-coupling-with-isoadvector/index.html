@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="keywords" content="">
     <meta name="author" content="">
-    <meta name="generator" content="Hugo 0.55.5" />
+    <meta name="generator" content="Hugo 0.67.1" />
     
     <!-- Mobile Specific Metas -->
     <meta name="format-detection" content="telephone=no">
@@ -158,42 +158,28 @@
             <div class="col-md-12">
                 <div class="post-content">
                     <p>IsoAdvector is a new method for two-phase flow advection developed by <a href="http://roenby.com/postdoc/">Johan Roenby</a>.</p>
-
 <p>Leaving major technical details out (you can find all the details in <a href="https://royalsocietypublishing.org/doi/full/10.1098/rsos.160405">A computational method for sharp interface advection</a>), isoAdvector produces an extremely sharp interface at a fraction of the computational cost of previous surface tracking methods, because it reduces the number of geometric operations needed for free surface advection.</p>
-
-<p>The sharpness of the interface is clear when comparing the results of a dam break test case against the solution obtained with OpenFOAM®&rsquo;s MULES solver. It must be noted, though, that MULES is an interface capturing method, therefore, it requires significantly less computational time to perform advection.</p>
-
+<p>The sharpness of the interface is clear when comparing the results of a dam break test case against the solution obtained with OpenFOAM®'s MULES solver. It must be noted, though, that MULES is an interface capturing method, therefore, it requires significantly less computational time to perform advection.</p>
 <p>Right now isoAdvector can be obtained in its <a href="https://github.com/isoAdvector/isoAdvector">GitHub repository</a> and it is also integrated in OpenFOAM v1712 via <em>interIsoFoam</em> solver.</p>
-
-<p><br><center><div class="embed video-player">
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --><div class="embed video-player">
     <iframe class="youtube-player" type="text/html" width="640" height="385" src="https://www.youtube.com/embed/AARnZrrIsEA" allowfullscreen frameborder="0">
     </iframe>
-    </div></center><br></p>
-
+    </div><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
 <p>Today I would like to present <strong>olaIsoFlow</strong>, a solver based on <em>interIsoFlow</em> in which I have incorporated the wave generation and absorption boundary conditions from the olaFlow Project.</p>
-
 <p>This side project is included in the following repository:</p>
-
 <ul>
 <li><a href="https://github.com/phicau/olaFlow_supplementary">https://github.com/phicau/olaFlow_supplementary</a></li>
 </ul>
-
 <p>The repository is intended to hold supplementary materials for the olaFlow project, including new solvers, modules and tutorials. As usual, it will include all the information in readme files, as well as scripts for a straightforward compilation and run.</p>
-
 <p>As of today, there is also another section in which I introduced test cases to use olaFlow wave boundary conditions with <em>multiphaseInterFoam</em> to <a href="https://www.youtube.com/watch?v=3lLAEg6XA54">simulate a three-phase (air-water-oil) system</a>.</p>
-
 <p>The new materials are included in the <a href="https://github.com/phicau/olaFlow_supplementary/tree/master/olaIsoFlow"><strong>olaIsoFlow</strong></a> folder.</p>
-
 <p>olaIsoFlow solver, located in the <a href="https://github.com/phicau/olaFlow_supplementary/tree/master/olaIsoFlow/solver_OF5">solver</a> folder needs to be compiled first.</p>
-
 <p>Afterwards, the tutorial case is contained in <a href="https://github.com/phicau/olaFlow_supplementary/tree/master/olaIsoFlow/tutorials/waveFlume_isoAdvector">tutorials/waveFlume_isoAdvector</a>.</p>
-
 <p>The video on the right shows how sharp the interface is using isoAdvector and how well waves behave with this solver.</p>
-
-<p><br><center><div class="embed video-player">
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --><div class="embed video-player">
     <iframe class="youtube-player" type="text/html" width="640" height="385" src="https://www.youtube.com/embed/AjSYfB63LpI" allowfullscreen frameborder="0">
     </iframe>
-    </div></center><br></p>
+    </div><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
 
                 </div>
             </div>
