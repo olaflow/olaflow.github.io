@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>setOla on olaFlow | CFD for waves</title>
+    <link>https://olaflow.github.io/tags/setola/</link>
+    <description>Recent content in setOla on olaFlow | CFD for waves</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 Jul 2020 12:20:40 +0600</lastBuildDate>
+    
+	<atom:link href="https://olaflow.github.io/tags/setola/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>setOla: new utility added to olaFlow</title>
+      <link>https://olaflow.github.io/blog/setola-new-utility-added-to-olaflow/</link>
+      <pubDate>Wed, 01 Jul 2020 12:20:40 +0600</pubDate>
+      
+      <guid>https://olaflow.github.io/blog/setola-new-utility-added-to-olaflow/</guid>
+      <description>The olaFlow CFD suite welcomes today a new utility: setOla.
+setOla works almost exactly like setFields, it helps you to set your initial conditions for VOF and velocity according to the wave conditions that you have defined as usual in the waveDict file. This utility can be very helpful when you want to save some time (the time that it takes for waves to propagate across the domain) and get the waves into your simulation straightaway.</description>
+    </item>
+    
+  </channel>
+</rss>

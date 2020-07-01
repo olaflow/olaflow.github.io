@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-us">
+<head>
+    <!-- Basic Page Needs -->
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+    <meta name="generator" content="Hugo 0.67.1" />
+    
+    <!-- Mobile Specific Metas -->
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>setOla: new utility added to olaFlow</title>
+    <link rel="icon" href="https://olaflow.github.io/images/favicon.ico">
+
+    <!-- Twitter Bootstrs CSS -->
+    <link rel="stylesheet" href="https://olaflow.github.io/plugins/bootstrap/bootstrap.min.css">
+    <!-- Ionicons Fonts Css -->
+    <link rel="stylesheet" href="https://olaflow.github.io/plugins/ionicons/ionicons.min.css">
+    <!-- animate css -->
+    <link rel="stylesheet" href="https://olaflow.github.io/plugins/animate-css/animate.css">
+    <!-- Hero area slider css-->
+    <link rel="stylesheet" href="https://olaflow.github.io/plugins/slider/slider.css">
+    <!-- slick slider -->
+    <link rel="stylesheet" href="https://olaflow.github.io/plugins/slick/slick.css">
+    <!-- Fancybox -->
+    <link rel="stylesheet" href="https://olaflow.github.io/plugins/facncybox/jquery.fancybox.css">
+    <!-- hover -->
+    <link rel="stylesheet" href="https://olaflow.github.io/plugins/hover/hover-min.css">
+    <!-- template main css file -->
+    <link rel="stylesheet" href="https://olaflow.github.io/css/style.css">
+    
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-135110671-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-135110671-1');
+    </script>
+</head>
+
+<body>
+
+<section class="top-bar animated-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <a class="navbar-brand" href="https://olaflow.github.io/">
+                        <img src="https://olaflow.github.io/images/logo_Htr.png" alt="logo" height="40">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://olaflow.github.io/">Home</a>
+                            </li>
+                            
+                            <li class="nav-item">
+                                <a class="nav-link" href="/blog">Blog</a>
+                            </li>
+                            
+                            <li class="nav-item">
+                                <a class="nav-link" href="/numerical-model">Numerical model</a>
+                            </li>
+                            
+                            <li class="nav-item">
+                                <a class="nav-link" href="/source-code">Source code</a>
+                            </li>
+                            
+                            <li class="nav-item">
+                                <a class="nav-link" href="/consultancy">Consultancy</a>
+                            </li>
+                            
+                            <li class="nav-item">
+                                <a class="nav-link" href="/development-team">Development Team</a>
+                            </li>
+                            
+                            <li class="nav-item">
+                                <a class="nav-link" href="/contact">Contact</a>
+                            </li>
+                            
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Global Page Section Start -->
+
+
+
+<section class="global-page-header" style='background-image: url("https://olaflow.github.io/images/backgrounds/penDiary.jpg"); background-repeat: no-repeat; background-size: cover; background-position: center;'>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="block">
+                    <h2>setOla: new utility added to olaFlow</h2>
+                    <div class="portfolio-meta">
+                        <span>Wednesday, Jul 1, 2020</span>|
+                        <span> Tags:
+                            olaFlow suite, setOla, Utility, Tool
+                        </span>
+                    </div>
+                    <br>
+                    <ol class="breadcrumb list-inline text-center">
+                        <li class="list-inline-item">
+                            <a href="/">
+                                <i class="ion-ios-home"></i>
+                                Home
+                            </a>
+                        </li>
+                        <li class="active list-inline-item">
+                            
+                            
+                            
+                            
+                            
+                                  
+                                <a href="/blog">
+                                        &nbsp; &nbsp; / &nbsp; &nbsp; Blog
+                                </a>
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            <a href="/blog/setola-new-utility-added-to-olaflow/">
+                                    &nbsp; &nbsp; / &nbsp; &nbsp; Post
+                            </a>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Global Page Section End -->
+
+<section class="single-post">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="post-content">
+                    <p>The <a href="https://github.com/phicau/olaFlow">olaFlow</a> CFD suite welcomes today a new utility: <strong>setOla</strong>.</p>
+<p><strong>setOla</strong> works almost exactly like <em>setFields</em>, it helps you to set your initial conditions for VOF and velocity according to the wave conditions that you have defined as usual in the <strong>waveDict</strong> file. This utility can be very helpful when you want to save some time (the time that it takes for waves to propagate across the domain) and get the waves into your simulation straightaway.</p>
+<p>We have also released a tutorial (<strong>setOlaFlume</strong>) for you to test the utility and understand the additional parameters that you need to define.</p>
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --><img class="block" style="padding:15px 15px 15px 15px; max-width: 90%;" src="/images/blog/setOlaTutorial.png"><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<!-- raw HTML omitted -->
+<h2 id="what-has-changed">What has changed?</h2>
+<p>There is a new utility in the <a href="https://github.com/phicau/olaFlow">olaFlow</a> CFD suite called <strong>setOla</strong>. The source code can be found in the <em>applications/setOla</em> folder.</p>
+<p>There is also a new tutorial called <strong>setOlaFlume</strong> that you can find with the rest of tutorials.</p>
+<!-- raw HTML omitted -->
+<h2 id="what-are-the-limitations">What are the limitations?</h2>
+<p>This utility is compatible with the most recent versions of OpenFOAM and OpenFOAM+.</p>
+<p><strong>setOla</strong> might not compile with rather old versions. In that case you will get a message on your terminal prompting you to update your OpenFOAM version.</p>
+<!-- raw HTML omitted -->
+<h2 id="how-to-access-the-new-utility">How to access the new utility?</h2>
+<p>To access the new utility, you just need to perform a code update as usual to download the latest olaFlow version:</p>
+<p><code>git checkout</code><br>
+<code>git pull</code></p>
+<p>Finally, recompile the code normally.</p>
+<p><code>./allMake</code></p>
+<!-- raw HTML omitted -->
+<h2 id="how-to-use-the-new-utility">How to use the new utility?</h2>
+<p>We have prepared a new tutorial called <strong>setOlaFlume</strong> so that you can experience and learn how to use this utility as soon as you compile it.</p>
+<p>The tutorial features the usual <em>runCase</em> script which features all the instructions to run the case, including running <strong>setOla</strong> to set the initial conditions.</p>
+<p>The shape of this wave flume is quite unique in order to illustrate how <strong>setOla</strong> works and how to set the additional parameters that it requires. As can be seen in the image above, the bottom of the flume starts at Z = 0 m (X = 0 m, inlet), then it goes down to Z = -0.10 m (X = 5 m) and it ends at Z = 0.05 m (X = 10 m, outlet). The top of the mesh is set at Z = 0.70 m and the water level is supposed to be at Z = 0.40 m.</p>
+<p>To set the water level, we need to define one or two additional parameters within <em>waveDict</em>:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-C++" data-lang="C++"><span style="color:#75715e">// Parameters for setOla
+</span><span style="color:#75715e"></span>setWaterLevel   <span style="color:#ae81ff">0.4</span>; <span style="color:#75715e">// Still water level (Z, in m)
+</span><span style="color:#75715e"></span>setWaterDepth   <span style="color:#ae81ff">0.4</span>; <span style="color:#75715e">// Water depth to use in calculations (if irregular bottom)
+</span></code></pre></div><p>The first parameter, <em>setWaterLevel</em>, will fix the initial water level at the given height. In this case the initial water level is supposed to be at Z = 0.40 m, therefore <em>setWaterLevel</em> = 0.4.</p>
+<p>The second parameter, <em>setWaterDepth</em>, is optional and fixes the water depth used to calculate the free surface elevation and velocities according to the wave theory, height, period&hellip; defined within <em>waveDict</em>.</p>
+<p><strong>Important notes:</strong></p>
+<ul>
+<li>If <em>setWaterDepth</em> is not defined, its value is calculated automatically as the difference between the given <em>setWaterLevel</em> and the lowest level (Z coordinate) of the points that form the mesh. In this case it would be h = 0.40 - (-0.10) = 0.50 m.</li>
+<li>The water depth at the wave generation boundary (X = 0 m, inlet) is h = 0.40 m = (0.40 - 0), and this will be the value that will be used by <strong>olaFlow</strong> wave generation boundary condition, so we need to fix <em>setWaterDepth</em> to 0.40 to prevent any discordances. This will only happen when the bottom of the domain is irregular, or more generally when the lowest point of the bottom is below the lowest point of the wave generation boundary.</li>
+<li>Note that <strong>setOla</strong> works independently from the wave generation and absorption boundary conditions. This is why you should expect a water depth at the wave generation boundary of 0.40 m and an initial water depth for absorption of 0.35 m at the outlet boundary.</li>
+</ul>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="blog-content">
+                    <a href="/blog/" class="btn btn-dafault btn-details">Back to the Blog Section</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer Section Start -->
+<hr>
+<footer id="footer">
+    <div class="container">
+        <div class="row content-justify-between">
+            <div class="col-md-8 col-12 text-center text-lg-left text-md-left">
+                <a class="footer-brand" href="https://olaflow.github.io/">
+                        <img src="https://olaflow.github.io/images/logo_Htr.png" alt="logo" height="40">
+                </a>
+            </div>
+            <div class="col-md-4 col-12">
+                <ul class="social text-center text-md-right text-lg-right">
+                <p class="copyright">Copyright ©: 2017-2020 olaFlow CFD
+                </p>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</footer>
+<!-- footer section end -->
+
+<!-- jquery -->
+<script src="https://olaflow.github.io/plugins/jQurey/jquery.min.js"></script>
+<!-- Form Validation -->
+<script src="https://olaflow.github.io/plugins/form-validation/jquery.form.js"></script>
+<script src="https://olaflow.github.io/plugins/form-validation/jquery.validate.min.js"></script>
+<!-- slick slider -->
+<script src="https://olaflow.github.io/plugins/slick/slick.min.js"></script>
+<!-- bootstrap js -->
+<script src="https://olaflow.github.io/plugins/bootstrap/bootstrap.min.js"></script>
+<!-- wow js -->
+<script src="https://olaflow.github.io/plugins/wow-js/wow.min.js"></script>
+<!-- slider js -->
+<script src="https://olaflow.github.io/plugins/slider/slider.js"></script>
+<!-- Fancybox -->
+<script src="https://olaflow.github.io/plugins/facncybox/jquery.fancybox.js"></script>
+<!-- template main js -->
+<script src="https://olaflow.github.io/js/main.js"></script>
+</body>
+
+</html>
