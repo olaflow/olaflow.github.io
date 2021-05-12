@@ -12,6 +12,16 @@
     
     
     <item>
+      <title>Artificial surf reef consultancy project with olaFlow</title>
+      <link>https://olaflow.github.io/blog/artificial-surf-reef-consultancy-project-with-olaflow/</link>
+      <pubDate>Wed, 05 May 2021 12:20:40 +0600</pubDate>
+      
+      <guid>https://olaflow.github.io/blog/artificial-surf-reef-consultancy-project-with-olaflow/</guid>
+      <description>One of our latest consultancy projects at the UoA Department of Civil and Environmental Engineering involved modelling an artificial surfing reef for Bluecoast Consulting Engineers, to be built at the city of Albany ( https://www.bluecoastconsulting.com.au/news/2020/8/26/albany-artificial-surfing-reef-project-video )
+The scope of the work involved using olaFlow (https://olaflow.github.io) to model how the reef works under different tide levels and wave conditions. The model calibration was informed by physical modelling data provided by the client and involved an extensive set of 2D simulations.</description>
+    </item>
+    
+    <item>
       <title>setOla: new utility added to olaFlow</title>
       <link>https://olaflow.github.io/blog/setola-new-utility-added-to-olaflow/</link>
       <pubDate>Wed, 01 Jul 2020 12:20:40 +0600</pubDate>
