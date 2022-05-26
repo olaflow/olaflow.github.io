@@ -6,11 +6,7 @@
     <description>Recent content in VOF on olaFlow | CFD for waves</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 19 Mar 2018 12:20:40 +0600</lastBuildDate>
-    
-	<atom:link href="https://olaflow.github.io/tags/vof/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 19 Mar 2018 12:20:40 +0600</lastBuildDate><atom:link href="https://olaflow.github.io/tags/vof/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>olaFlow coupling with isoAdvector</title>
       <link>https://olaflow.github.io/blog/olaflow-coupling-with-isoadvector/</link>

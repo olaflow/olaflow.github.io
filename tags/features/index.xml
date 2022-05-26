@@ -6,11 +6,7 @@
     <description>Recent content in Features on olaFlow | CFD for waves</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 29 Nov 2016 12:20:40 +0600</lastBuildDate>
-    
-	<atom:link href="https://olaflow.github.io/tags/features/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 29 Nov 2016 12:20:40 +0600</lastBuildDate><atom:link href="https://olaflow.github.io/tags/features/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>OLAFOAM generation capabilities grow with the flap wavemaker</title>
       <link>https://olaflow.github.io/blog/olafoam-generation-capabilities-grow-with-the-flap-wavemaker/</link>

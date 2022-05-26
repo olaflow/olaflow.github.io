@@ -6,11 +6,7 @@
     <description>Recent content in Turbulence models on olaFlow | CFD for waves</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 30 Aug 2018 12:20:40 +0600</lastBuildDate>
-    
-	<atom:link href="https://olaflow.github.io/tags/turbulence-models/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Thu, 30 Aug 2018 12:20:40 +0600</lastBuildDate><atom:link href="https://olaflow.github.io/tags/turbulence-models/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Turbulence models for wave simulations [Revisited]</title>
       <link>https://olaflow.github.io/blog/turbulence-models-for-wave-simulations-revisited/</link>

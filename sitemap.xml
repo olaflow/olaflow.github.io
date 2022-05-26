@@ -1,394 +1,238 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://olaflow.github.io/tags/artificial-surf-reef/</loc>
     <lastmod>2021-05-05T12:20:40+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://olaflow.github.io/blog/artificial-surf-reef-consultancy-project-with-olaflow/</loc>
     <lastmod>2021-05-05T12:20:40+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://olaflow.github.io/tags/consultancy-project/</loc>
     <lastmod>2021-05-05T12:20:40+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://olaflow.github.io/</loc>
     <lastmod>2021-05-05T12:20:40+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://olaflow.github.io/tags/</loc>
     <lastmod>2021-05-05T12:20:40+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://olaflow.github.io/tags/olaflow-suite/</loc>
     <lastmod>2020-07-01T12:20:40+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://olaflow.github.io/tags/setola/</loc>
     <lastmod>2020-07-01T12:20:40+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://olaflow.github.io/blog/setola-new-utility-added-to-olaflow/</loc>
     <lastmod>2020-07-01T12:20:40+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://olaflow.github.io/tags/tool/</loc>
     <lastmod>2020-07-01T12:20:40+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://olaflow.github.io/tags/utility/</loc>
     <lastmod>2020-07-01T12:20:40+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://olaflow.github.io/tags/awa/</loc>
     <lastmod>2019-11-25T12:20:40+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://olaflow.github.io/blog/extended-range-active-wave-absorption-has-just-been-published/</loc>
     <lastmod>2019-11-25T12:20:40+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://olaflow.github.io/tags/publication/</loc>
     <lastmod>2019-11-25T12:20:40+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://olaflow.github.io/tags/wave-absorption/</loc>
     <lastmod>2019-11-25T12:20:40+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://olaflow.github.io/tags/development/</loc>
     <lastmod>2019-06-13T12:20:40+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://olaflow.github.io/blog/new-branch-added-to-olaflow/</loc>
     <lastmod>2019-06-13T12:20:40+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://olaflow.github.io/numerical-model/model-applications/</loc>
     <lastmod>2018-12-19T18:19:33+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://olaflow.github.io/consultancy/</loc>
     <lastmod>2018-12-19T18:19:33+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://olaflow.github.io/development-team/</loc>
     <lastmod>2018-12-19T18:19:33+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://olaflow.github.io/numerical-model/external-references/</loc>
     <lastmod>2018-12-19T18:19:33+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://olaflow.github.io/numerical-model/internal-references/</loc>
     <lastmod>2018-12-19T18:19:33+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://olaflow.github.io/numerical-model/model-physics/</loc>
     <lastmod>2018-12-19T18:19:33+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://olaflow.github.io/numerical-model/model-references/</loc>
     <lastmod>2018-12-19T18:19:33+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://olaflow.github.io/numerical-model/</loc>
     <lastmod>2018-12-19T18:19:33+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://olaflow.github.io/source-code/</loc>
     <lastmod>2018-12-19T18:19:33+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://olaflow.github.io/numerical-model/model-tutorials/</loc>
     <lastmod>2018-12-19T18:19:33+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://olaflow.github.io/numerical-model/model-utilities/</loc>
     <lastmod>2018-12-19T18:19:33+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://olaflow.github.io/blog/active-wave-absorption-enhancements-in-olaflow/</loc>
     <lastmod>2018-10-22T12:20:40+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://olaflow.github.io/tags/rans/</loc>
     <lastmod>2018-08-30T12:20:40+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://olaflow.github.io/tags/turbulence-models/</loc>
     <lastmod>2018-08-30T12:20:40+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://olaflow.github.io/blog/turbulence-models-for-wave-simulations-revisited/</loc>
     <lastmod>2018-08-30T12:20:40+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://olaflow.github.io/blog/</loc>
     <lastmod>2018-07-15T12:32:37+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://olaflow.github.io/contact/</loc>
     <lastmod>2018-07-14T17:09:20+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://olaflow.github.io/gallery/</loc>
     <lastmod>2018-07-14T16:19:08+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://olaflow.github.io/service/</loc>
     <lastmod>2018-07-14T12:58:14+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://olaflow.github.io/about/</loc>
     <lastmod>2018-07-12T18:19:33+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://olaflow.github.io/portfolio/caramel-bottle/</loc>
     <lastmod>2018-07-12T16:59:54+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://olaflow.github.io/portfolio/</loc>
     <lastmod>2018-07-12T16:59:54+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://olaflow.github.io/portfolio/shopping-bag-concept/</loc>
     <lastmod>2018-07-12T16:58:55+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://olaflow.github.io/portfolio/makeup-element/</loc>
     <lastmod>2018-07-12T16:57:54+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://olaflow.github.io/portfolio/table-design/</loc>
     <lastmod>2018-07-12T16:56:54+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://olaflow.github.io/portfolio/bottle-mockup/</loc>
     <lastmod>2018-07-12T16:54:54+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://olaflow.github.io/portfolio/dew-drop/</loc>
     <lastmod>2018-07-12T16:53:54+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://olaflow.github.io/tags/citing/</loc>
     <lastmod>2018-06-24T12:20:40+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://olaflow.github.io/tags/doi/</loc>
     <lastmod>2018-06-24T12:20:40+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://olaflow.github.io/blog/olaflow-doi/</loc>
     <lastmod>2018-06-24T12:20:40+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://olaflow.github.io/blog/new-paper-on-swash-flows-with-olaflow/</loc>
     <lastmod>2018-05-30T12:20:40+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://olaflow.github.io/tags/paper/</loc>
     <lastmod>2018-05-30T12:20:40+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://olaflow.github.io/tags/solitary-wave/</loc>
     <lastmod>2018-05-30T12:20:40+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://olaflow.github.io/tags/swash-flows/</loc>
     <lastmod>2018-05-30T12:20:40+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://olaflow.github.io/blog/turbulence-models-for-wave-simulations/</loc>
     <lastmod>2018-04-16T12:20:40+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://olaflow.github.io/tags/coupling/</loc>
     <lastmod>2018-03-19T12:20:40+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://olaflow.github.io/tags/isoadvector/</loc>
     <lastmod>2018-03-19T12:20:40+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://olaflow.github.io/blog/olaflow-coupling-with-isoadvector/</loc>
     <lastmod>2018-03-19T12:20:40+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://olaflow.github.io/tags/vof/</loc>
     <lastmod>2018-03-19T12:20:40+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://olaflow.github.io/blog/-first-olaflow-publication/</loc>
     <lastmod>2018-01-10T12:20:40+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://olaflow.github.io/tags/focussed-waves/</loc>
     <lastmod>2018-01-10T12:20:40+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://olaflow.github.io/tags/release/</loc>
     <lastmod>2017-12-19T12:20:40+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://olaflow.github.io/blog/releasing-olaflow/</loc>
     <lastmod>2017-12-19T12:20:40+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://olaflow.github.io/tags/features/</loc>
     <lastmod>2016-11-29T12:20:40+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://olaflow.github.io/tags/flap-wavemaker/</loc>
     <lastmod>2016-11-29T12:20:40+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://olaflow.github.io/blog/olafoam-generation-capabilities-grow-with-the-flap-wavemaker/</loc>
     <lastmod>2016-11-29T12:20:40+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://olaflow.github.io/tags/wave-generation/</loc>
     <lastmod>2016-11-29T12:20:40+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://olaflow.github.io/blog/cfd-requiem-for-wavestar/</loc>
     <lastmod>2016-08-16T12:20:40+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://olaflow.github.io/tags/dynamic-mesh/</loc>
     <lastmod>2016-08-16T12:20:40+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://olaflow.github.io/tags/floating-structure/</loc>
     <lastmod>2016-08-16T12:20:40+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://olaflow.github.io/tags/wave-energy-converter/</loc>
     <lastmod>2016-08-16T12:20:40+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://olaflow.github.io/tags/openfoam-information/</loc>
     <lastmod>2016-07-04T12:20:40+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://olaflow.github.io/blog/what-is-what-and-who-is-who-in-the-openfoam-environment/</loc>
     <lastmod>2016-07-04T12:20:40+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://olaflow.github.io/blog/olafoam-updated-to-openfoam-4.0/</loc>
     <lastmod>2016-06-29T12:20:40+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://olaflow.github.io/tags/source-code/</loc>
     <lastmod>2016-06-29T12:20:40+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://olaflow.github.io/tags/updates/</loc>
     <lastmod>2016-06-29T12:20:40+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://olaflow.github.io/tags/tsunami/</loc>
     <lastmod>2016-06-22T12:20:40+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://olaflow.github.io/blog/tsunami-generator-and-updates-soon/</loc>
     <lastmod>2016-06-22T12:20:40+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://olaflow.github.io/tags/wave-and-current-interaction/</loc>
     <lastmod>2016-04-29T12:20:40+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://olaflow.github.io/blog/waves-and-currents-are-here/</loc>
     <lastmod>2016-04-29T12:20:40+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://olaflow.github.io/blog/olafoam-release-the-evolution-of-ihfoam/</loc>
     <lastmod>2016-03-07T12:20:40+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://olaflow.github.io/categories/</loc>
   </url>
-  
 </urlset>

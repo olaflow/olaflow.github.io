@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="keywords" content="">
     <meta name="author" content="">
-    <meta name="generator" content="Hugo 0.67.1" />
+    <meta name="generator" content="Hugo 0.89.4" />
     
     <!-- Mobile Specific Metas -->
     <meta name="format-detection" content="telephone=no">
@@ -182,7 +182,7 @@
 <p>The tutorial features the usual <em>runCase</em> script which features all the instructions to run the case, including running <strong>setOla</strong> to set the initial conditions.</p>
 <p>The shape of this wave flume is quite unique in order to illustrate how <strong>setOla</strong> works and how to set the additional parameters that it requires. As can be seen in the image above, the bottom of the flume starts at Z = 0 m (X = 0 m, inlet), then it goes down to Z = -0.10 m (X = 5 m) and it ends at Z = 0.05 m (X = 10 m, outlet). The top of the mesh is set at Z = 0.70 m and the water level is supposed to be at Z = 0.40 m.</p>
 <p>To set the water level, we need to define one or two additional parameters within <em>waveDict</em>:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-C++" data-lang="C++"><span style="color:#75715e">// Parameters for setOla
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-C++" data-lang="C++"><span style="color:#75715e">// Parameters for setOla
 </span><span style="color:#75715e"></span>setWaterLevel   <span style="color:#ae81ff">0.4</span>; <span style="color:#75715e">// Still water level (Z, in m)
 </span><span style="color:#75715e"></span>setWaterDepth   <span style="color:#ae81ff">0.4</span>; <span style="color:#75715e">// Water depth to use in calculations (if irregular bottom)
 </span></code></pre></div><p>The first parameter, <em>setWaterLevel</em>, will fix the initial water level at the given height. In this case the initial water level is supposed to be at Z = 0.40 m, therefore <em>setWaterLevel</em> = 0.4.</p>
